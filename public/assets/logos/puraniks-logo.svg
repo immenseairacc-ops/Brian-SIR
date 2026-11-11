@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 56" fill="none">
+  <rect x="2" y="10" width="36" height="36" stroke="#0A1F44" stroke-width="2.5"/>
+  <path d="M10 46V20H28V34H18" stroke="#FF6B00" stroke-width="2.5"/>
+  <text x="50" y="33" font-family="'Montserrat', 'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="700" letter-spacing="3.5" fill="#0A1F44">PURANIKS</text>
+  <text x="51" y="45" font-family="'Montserrat', 'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="600" letter-spacing="2.8" fill="#475569">IDEAS THAT STAY WITH YOU</text>
+</svg>

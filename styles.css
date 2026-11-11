@@ -381,3 +381,17 @@ textarea.soft-input { min-height: 110px; resize: vertical; }
     padding-bottom: max(24px, env(safe-area-inset-bottom));
   }
 }
+
+/* Hide Netlify branding badge & drawer */
+[class*="netlify"],
+[id*="netlify"],
+iframe[src*="netlify"],
+a[href*="netlify.com"],
+.netlify-badge,
+div[style*="z-index: 10000"],
+div[style*="z-index: 2147483647"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}

@@ -141,7 +141,10 @@
           </dl>
         </div>
 
-        <form id="leadForm" class="reveal space-y-4" style="--d:120ms" novalidate>
+        <form id="leadForm" name="homepage-leads" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="reveal space-y-4" style="--d:120ms" novalidate>
+          <input type="hidden" name="form-name" value="homepage-leads" />
+          <input type="hidden" name="_to" value="brian.chang@credencefirstrealtors.in" />
+          <p class="hidden"><label>Leave empty: <input name="bot-field" /></label></p>
           <input class="soft-input" name="fullName" placeholder="Full name" autocomplete="name" required />
           <input class="soft-input" name="mobile" placeholder="Mobile number (+91)" inputmode="tel" autocomplete="tel" required />
           <select class="soft-input" name="project" id="formProject"></select>

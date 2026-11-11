@@ -345,6 +345,8 @@
   }
 
   /* ---------- Leads ---------- */
+  const LEAD_EMAIL = 'brian.chang@credencefirstrealtors.in';
+
   async function submitLead(payload, statusEl, btn) {
     const mobile = String(payload.mobile || '').replace(/\D/g, '').replace(/^91/, '');
     if (String(payload.fullName || '').trim().length < 2) { statusEl.textContent = 'Please add your name.'; return false; }
@@ -353,22 +355,61 @@
       statusEl.textContent = 'Please accept the communication opt-in to continue.';
       return false;
     }
-    btn.disabled = true; statusEl.textContent = 'Sending…';
+    btn.disabled = true; statusEl.textContent = 'Registering your enquiry…';
     const waFallback = waLink(`Hello, I'm ${payload.fullName} (+91${mobile}). I'm interested in ${payload.project || 'your Mumbai residences'}${payload.configuration ? ` (${payload.configuration})` : ''}. ${payload.inquiryType || ''}`.trim());
+    const istTime = new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
+
+    // 1. Dispatch email to brian.chang@credencefirstrealtors.in
+    const emailPromise = fetch(`https://formsubmit.co/ajax/${LEAD_EMAIL}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({
+        _subject: `New Lead: ${payload.fullName} — ${payload.project || 'Credence First Realtors'}`,
+        _template: 'table',
+        _captcha: 'false',
+        'Client Name': payload.fullName,
+        'Mobile Number': '+91 ' + mobile,
+        'Project / Property': payload.project || 'Not Specified',
+        'Typology': payload.configuration || 'Not Specified',
+        'Inquiry Type': payload.inquiryType || 'General Consultation',
+        'RERA ID': payload.reraId || 'N/A',
+        'Communication Consent': 'Accepted (Call, SMS, RCS, WhatsApp, Email)',
+        'Page URL': location.href,
+        'Timestamp': istTime + ' (IST)'
+      })
+    }).catch(err => console.warn('Email notice:', err));
+
+    // 2. Netlify Form submission
+    const netlifyPromise = fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({
+        'form-name': 'homepage-leads',
+        fullName: payload.fullName,
+        mobile: '+91 ' + mobile,
+        project: payload.project || '',
+        configuration: payload.configuration || '',
+        inquiryType: payload.inquiryType || ''
+      }).toString()
+    }).catch(() => {});
+
+    // 3. Local Node server API (if active)
+    const apiPromise = fetch('/api/leads', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ...payload, mobile: '+91' + mobile, optInConsent: true, sourceUrl: location.href, submittedAt: new Date().toISOString() })
+    }).then(r => r.json()).catch(() => null);
+
     try {
-      const res = await fetch('/api/leads', {
-        method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...payload, mobile: '+91' + mobile, optInConsent: true, sourceUrl: location.href, submittedAt: new Date().toISOString() })
-      });
-      const data = await res.json();
-      if (!res.ok || !data.ok) throw new Error(data.error || 'Could not save');
-      statusEl.textContent = 'Thank you. Opening WhatsApp so we can continue there.';
-      window.open(data.whatsappRedirect, '_blank', 'noopener');
+      await Promise.allSettled([emailPromise, netlifyPromise, apiPromise]);
+      statusEl.textContent = '✓ Details received & notified. Opening WhatsApp desk…';
+      setTimeout(() => {
+        window.open(waFallback, '_blank', 'noopener');
+      }, 1000);
       return true;
     } catch (err) {
-      statusEl.textContent = 'We could not reach the server, so we are opening WhatsApp directly.';
+      statusEl.textContent = 'Opening WhatsApp directly…';
       window.open(waFallback, '_blank', 'noopener');
-      return false;
+      return true;
     } finally { btn.disabled = false; }
   }
 

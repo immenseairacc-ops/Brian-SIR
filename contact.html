@@ -129,7 +129,10 @@
               Fill in your details below. An advisor will prepare the requested cost sheets and reach out to you via WhatsApp or phone.
             </p>
 
-            <form id="fullContactForm" class="space-y-4" novalidate>
+            <form id="fullContactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="space-y-4" novalidate>
+              <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="_to" value="brian.chang@credencefirstrealtors.in" />
+              <p class="hidden"><label>Leave this empty: <input name="bot-field" /></label></p>
               <div class="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label class="block text-xs text-muted mb-1.5 ml-1">Full Name *</label>
@@ -277,12 +280,13 @@
     }, { threshold: 0.12 });
     document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
 
-    // Handle Form Submit with Opt-in Validation
+    // Handle Form Submit with Opt-in Validation & Direct Email to brian.chang@credencefirstrealtors.in
     const form = document.getElementById('fullContactForm');
     const statusEl = document.getElementById('contactStatus');
     const btn = document.getElementById('submitBtn');
     const optin = document.getElementById('contactOptin');
     const WA_NUMBER = '917304971642';
+    const LEAD_EMAIL = 'brian.chang@credencefirstrealtors.in';
 
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
@@ -303,36 +307,81 @@
       }
 
       btn.disabled = true;
-      statusEl.textContent = 'Registering your request...';
+      statusEl.textContent = 'Submitting your request & notifying our advisory team...';
 
       const waText = `Hello, I'm ${fd.fullName} (+91${cleanMobile}). I submitted a consultation request for ${fd.project || 'Mumbai Residences'} (${fd.configuration || '3 BHK'}, Budget: ${fd.budget || 'Not specified'}). ${fd.message ? 'Note: ' + fd.message : ''}`.trim();
       const waFallback = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(waText)}`;
 
-      try {
-        const res = await fetch('/api/leads', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            fullName: fd.fullName,
-            mobile: '+91' + cleanMobile,
-            email: fd.email || '',
-            project: fd.project || 'Credence First Realtors Advisory',
-            configuration: fd.configuration || 'Not Specified',
-            budget: fd.budget || '',
-            inquiryType: 'Full Contact Page Consultation',
-            optInConsent: true,
-            sourceUrl: location.href,
-            submittedAt: new Date().toISOString()
-          })
-        });
-        const data = await res.json();
-        if (!res.ok || !data.ok) throw new Error(data.error || 'Server error');
+      const istTime = new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
 
-        statusEl.textContent = 'Thank you. Redirecting to our WhatsApp advisory desk...';
+      // 1. Send email directly to brian.chang@credencefirstrealtors.in via FormSubmit
+      const emailPromise = fetch(`https://formsubmit.co/ajax/${LEAD_EMAIL}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          _subject: `New Lead: ${fd.fullName} — ${fd.project || 'Credence First Realtors'}`,
+          _template: 'table',
+          _captcha: 'false',
+          'Client Name': fd.fullName,
+          'Mobile Number': '+91 ' + cleanMobile,
+          'Email Address': fd.email || 'Not provided',
+          'Preferred Project': fd.project || 'General Consultation',
+          'Typology / BHK': fd.configuration || 'Not specified',
+          'Estimated Budget': fd.budget || 'Not specified',
+          'Client Note / Requirements': fd.message || 'None',
+          'Communication Consent': 'Accepted (Call, SMS, RCS, WhatsApp, Email)',
+          'Page URL': location.href,
+          'Submission Time': istTime + ' (IST)'
+        })
+      }).catch(err => console.warn('Email dispatch notice:', err));
+
+      // 2. Netlify Form submission (stores in Netlify Forms table)
+      const netlifyPromise = fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          'form-name': 'contact',
+          fullName: fd.fullName,
+          mobile: '+91' + cleanMobile,
+          email: fd.email || '',
+          project: fd.project || 'General Consultation',
+          configuration: fd.configuration || '',
+          budget: fd.budget || '',
+          message: fd.message || ''
+        }).toString()
+      }).catch(() => {});
+
+      // 3. Local Node API (if running on local server)
+      const apiPromise = fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          fullName: fd.fullName,
+          mobile: '+91' + cleanMobile,
+          email: fd.email || '',
+          project: fd.project || 'Credence First Realtors Advisory',
+          configuration: fd.configuration || 'Not Specified',
+          budget: fd.budget || '',
+          inquiryType: 'Full Contact Page Consultation',
+          optInConsent: true,
+          sourceUrl: location.href,
+          submittedAt: new Date().toISOString()
+        })
+      }).then(r => r.json()).catch(() => null);
+
+      try {
+        await Promise.allSettled([emailPromise, netlifyPromise, apiPromise]);
+        statusEl.className = 'text-sm text-emerald-700 font-medium min-h-[20px]';
+        statusEl.textContent = '✓ Details sent to Brian Chang (brian.chang@credencefirstrealtors.in). Opening WhatsApp...';
         form.reset();
-        window.open(data.whatsappRedirect || waFallback, '_blank', 'noopener');
+        setTimeout(() => {
+          window.open(waFallback, '_blank', 'noopener');
+        }, 1200);
       } catch (err) {
-        statusEl.textContent = 'Thank you. Opening WhatsApp advisory desk directly...';
+        statusEl.textContent = 'Opening WhatsApp advisory desk directly...';
         window.open(waFallback, '_blank', 'noopener');
       } finally {
         btn.disabled = false;

@@ -757,46 +757,50 @@
 
   
   /* ---------- Thank You Modal Controller ---------- */
-  const tyModal = $('#thankYouModal');
-  const tyClientName = $('#tyClientName');
-  const tyProject = $('#tyProject');
-  const tyBhkBudget = $('#tyBhkBudget');
-  const tyMobile = $('#tyMobile');
-  const tyWaBtn = $('#tyWaBtn');
-  const tyCloseBtnTop = $('#tyCloseBtnTop');
-  const tyCloseBtnBottom = $('#tyCloseBtnBottom');
-
   function showThankYouModal(info) {
-    if (tyClientName) tyClientName.textContent = info.name || 'Client';
-    if (tyProject) tyProject.textContent = info.project || 'General Consultation';
-    if (tyBhkBudget) tyBhkBudget.textContent = info.bhk || 'Not specified';
-    if (tyMobile) tyMobile.textContent = info.mobile || '';
-    if (tyWaBtn) tyWaBtn.href = info.waUrl || `https://wa.me/${WA_NUMBER}`;
+    const modal = document.getElementById('thankYouModal');
+    const nameEl = document.getElementById('tyClientName');
+    const projEl = document.getElementById('tyProject');
+    const bhkEl = document.getElementById('tyBhkBudget');
+    const mobEl = document.getElementById('tyMobile');
+    const waBtn = document.getElementById('tyWaBtn');
 
-    if (tyModal) {
-      tyModal.classList.add('active');
-      tyModal.setAttribute('aria-hidden', 'false');
+    if (nameEl) nameEl.textContent = info.name || 'Client';
+    if (projEl) projEl.textContent = info.project || 'General Consultation';
+    if (bhkEl) bhkEl.textContent = info.bhk || 'Not specified';
+    if (mobEl) mobEl.textContent = info.mobile || '';
+    if (waBtn) waBtn.href = info.waUrl || 'https://wa.me/' + WA_NUMBER;
+
+    if (modal) {
+      modal.classList.add('active');
+      modal.setAttribute('aria-hidden', 'false');
+      modal.style.display = 'flex';
     }
     if (lenis) lenis.stop(); else document.body.style.overflow = 'hidden';
   }
 
   function hideThankYouModal() {
-    if (tyModal) {
-      tyModal.classList.remove('active');
-      tyModal.setAttribute('aria-hidden', 'true');
+    const modal = document.getElementById('thankYouModal');
+    if (modal) {
+      modal.classList.remove('active');
+      modal.setAttribute('aria-hidden', 'true');
+      modal.style.display = 'none';
     }
     if (lenis) lenis.start(); else document.body.style.overflow = '';
   }
 
-  if (tyCloseBtnTop) tyCloseBtnTop.addEventListener('click', hideThankYouModal);
-  if (tyCloseBtnBottom) tyCloseBtnBottom.addEventListener('click', hideThankYouModal);
-  if (tyModal) {
-    tyModal.addEventListener('click', (e) => {
-      if (e.target === tyModal) hideThankYouModal();
-    });
-  }
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && tyModal && tyModal.classList.contains('active')) hideThankYouModal();
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('#tyCloseBtnTop') || e.target.closest('#tyCloseBtnBottom')) {
+      hideThankYouModal();
+    }
+    const modal = document.getElementById('thankYouModal');
+    if (modal && e.target === modal) {
+      hideThankYouModal();
+    }
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') hideThankYouModal();
   });
 
   /* ---------- Init ---------- */

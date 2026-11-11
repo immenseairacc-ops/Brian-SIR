@@ -43,14 +43,15 @@ section[id] { scroll-margin-top: 68px; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
 /* Thank You Modal */
+/* Thank You Modal */
 .ty-modal-overlay {
   position: fixed;
   inset: 0;
-  z-index: 120;
-  background: rgba(17, 17, 17, 0.55);
+  z-index: 9999;
+  background: rgba(17, 17, 17, 0.65);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   padding: 20px;
@@ -59,23 +60,25 @@ section[id] { scroll-margin-top: 68px; }
   transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .ty-modal-overlay.active {
-  opacity: 1;
-  pointer-events: auto;
+  display: flex !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
 }
 .ty-modal-card {
   background: #F6F5F2;
-  border: 1px solid rgba(17, 17, 17, 0.08);
+  border: 1px solid rgba(17, 17, 17, 0.12);
   border-radius: 28px;
-  max-width: 500px;
+  max-width: 520px;
   width: 100%;
   padding: 32px 28px;
-  box-shadow: 0 24px 60px -12px rgba(17, 17, 17, 0.25);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
   transform: translate3d(0, 16px, 0) scale(0.96);
   transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
   position: relative;
+  z-index: 10000;
 }
 .ty-modal-overlay.active .ty-modal-card {
-  transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1) !important;
 }
 
 /* Hero search */

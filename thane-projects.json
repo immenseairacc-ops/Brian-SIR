@@ -1,0 +1,267 @@
+[
+  {
+    "devKey": "narang",
+    "developer": "Narang Realty",
+    "name": "Narang Privado & Courtyard",
+    "microMarket": "Pokhran Road 1, Thane West",
+    "region": "Thane Luxury Corridor",
+    "bhk": "2, 3 & 4 BHK",
+    "price": "₹ 2.45 Cr*",
+    "carpet": "780 – 1,620 sq.ft.",
+    "rera": "P51700030582",
+    "towers": [
+      "Privado Luxury Tower",
+      "Courtyard Phase 2",
+      "Asteria Tower"
+    ],
+    "description": "Ultra-luxury residences nestled adjacent to the lush Yeoor Hills foothills on Pokhran Road 1. Low-density gated community designed by Hafeez Contractor with panoramic canopy views.",
+    "urls": [
+      "https://narangrealty.com/property-page/residential-project-in-thane",
+      "https://narangrealty.com"
+    ],
+    "targetFilename": "narang-privado.jpg",
+    "logoFilename": "narang-realty-logo.png",
+    "imageLocal": "./assets/projects/narang-privado.jpg",
+    "imageExists": false,
+    "imageSizeKB": 0
+  },
+  {
+    "devKey": "raymond",
+    "developer": "Raymond Realty",
+    "name": "The Address by GS & Invictus",
+    "microMarket": "Pokhran Road 2, Thane West",
+    "region": "Thane Luxury Corridor",
+    "bhk": "3, 4 & 5 BHK",
+    "price": "₹ 2.85 Cr*",
+    "carpet": "1,120 – 2,450 sq.ft.",
+    "rera": "P51700045952",
+    "towers": [
+      "The Address by GS",
+      "Invictus Tower",
+      "TenX Era",
+      "TenX Habitat"
+    ],
+    "description": "Raymond Realty’s crown jewel in Thane, curated with Portuguese-inspired architecture, grand double-height entrance lobbies, high-street retail, and clubhouses sprawled across acres of lush greens.",
+    "urls": [
+      "https://raymondrealty.in/ready-to-move-in-flats-in-thane",
+      "https://raymondrealty.in"
+    ],
+    "targetFilename": "raymond-invictus.jpg",
+    "logoFilename": "raymond-realty-logo.png",
+    "imageLocal": "./assets/projects/raymond-invictus.jpg",
+    "imageExists": true,
+    "imageSizeKB": 1910
+  },
+  {
+    "devKey": "sheth",
+    "developer": "Ashwin Sheth Group",
+    "name": "Sheth Avalon & Fern",
+    "microMarket": "Eastern Express Highway, Thane West",
+    "region": "Thane Luxury Corridor",
+    "bhk": "3, 4 & 5 BHK Sky Mansions",
+    "price": "₹ 3.10 Cr*",
+    "carpet": "1,280 – 2,850 sq.ft.",
+    "rera": "P51700015518",
+    "towers": [
+      "Sheth Avalon Signature",
+      "Sheth Fern Towers",
+      "Sky Club Residences"
+    ],
+    "description": "High-end branded residences conceptualised by Sussanne Khan, fronting Viviana Mall and the Eastern Express Highway. Features sprawling cantilevered decks and private elevator lobbies.",
+    "urls": [
+      "https://avalonthane.com",
+      "https://www.ashwinshethgroup.com/projects"
+    ],
+    "targetFilename": "sheth-avalon.jpg",
+    "logoFilename": "ashwin-sheth-logo.png",
+    "imageLocal": "./assets/projects/sheth-avalon.jpg",
+    "imageExists": true,
+    "imageSizeKB": 286
+  },
+  {
+    "devKey": "piramal",
+    "developer": "Piramal Realty",
+    "name": "Piramal Vaikunth",
+    "microMarket": "Balkum, Thane West",
+    "region": "Thane Luxury Corridor",
+    "bhk": "2, 2.5 & 3 BHK",
+    "price": "₹ 1.65 Cr*",
+    "carpet": "685 – 1,420 sq.ft.",
+    "rera": "P51700003525",
+    "towers": [
+      "Vaikunth Cluster 1",
+      "Cluster 2",
+      "Cluster 3",
+      "ISKON Temple Zone"
+    ],
+    "description": "A 32-acre community living sanctuary with up to 40% open green reserves and a dedicated ISKCON temple within the masterplan. Engineered with world-class consultants HOK and BuroHappold.",
+    "urls": [
+      "https://www.piramalrealty.com/project-vaikunth"
+    ],
+    "targetFilename": "piramal-vaikunth.jpg",
+    "logoFilename": "piramal-realty-logo.png",
+    "imageLocal": "./assets/projects/piramal-vaikunth.jpg",
+    "imageExists": true,
+    "imageSizeKB": 662
+  },
+  {
+    "devKey": "kalpataru",
+    "developer": "Kalpataru",
+    "name": "Kalpataru Parkcity",
+    "microMarket": "Kolshet Road, Thane West",
+    "region": "Thane Luxury Corridor",
+    "bhk": "2, 3 & 4 BHK",
+    "price": "₹ 1.55 Cr*",
+    "carpet": "620 – 1,510 sq.ft.",
+    "rera": "P51700020175",
+    "towers": [
+      "Eternia",
+      "Estella",
+      "Immensa",
+      "Primera",
+      "Sunrise Towers"
+    ],
+    "description": "An integrated 100+ acre township built around the 20+ acre Grand Central Park of Thane. Over 4050 trees, multiple themed gardens, Olympic-length pools, and international standard sports academies.",
+    "urls": [
+      "https://www.kalpataru.com/thane/kalpataru-parkcity"
+    ],
+    "targetFilename": "kalpataru-parkcity.jpg",
+    "logoFilename": "kalpataru-logo.png",
+    "imageLocal": "./assets/projects/kalpataru-parkcity.jpg",
+    "imageExists": true,
+    "imageSizeKB": 66
+  },
+  {
+    "devKey": "rustomjee-thane",
+    "developer": "Rustomjee",
+    "name": "Rustomjee Uptown Urbania",
+    "microMarket": "Majiwada Junction, Thane West",
+    "region": "Thane Luxury Corridor",
+    "bhk": "2 & 3 BHK",
+    "price": "₹ 1.48 Cr*",
+    "carpet": "630 – 1,220 sq.ft.",
+    "rera": "P51700032205",
+    "towers": [
+      "La Vie Luxury",
+      "La Familia Tower",
+      "Verdant Vistas",
+      "Azziano"
+    ],
+    "description": "127+ acre self-contained mega-township at Majiwada Junction featuring the Cambridge International Urbania School, Leon’s World amusement park, rooftop infinity pools, and zero vehicle movement podiums.",
+    "urls": [
+      "https://www.rustomjee.com/thane/residential-properties-in-thane"
+    ],
+    "targetFilename": "rustomjee-urbania.jpg",
+    "logoFilename": "rustomjee-logo.png",
+    "imageLocal": "./assets/projects/rustomjee-urbania.jpg",
+    "imageExists": true,
+    "imageSizeKB": 798
+  },
+  {
+    "devKey": "prestige",
+    "developer": "Prestige Group",
+    "name": "Prestige City & Forest Hills",
+    "microMarket": "Mulund-Thane Check Naka / Yogi Hills",
+    "region": "Thane Luxury Corridor",
+    "bhk": "2, 3 & 4 BHK",
+    "price": "₹ 2.10 Cr*",
+    "carpet": "760 – 1,840 sq.ft.",
+    "rera": "P51800030145",
+    "towers": [
+      "Bellanza",
+      "Siesta",
+      "Forest Hills",
+      "The Falcon Clubhouse"
+    ],
+    "description": "Prestige Group’s 30+ acre integrated hillside development abutting Yogi Hills, Mulund-Thane border. Features elevated forest trails, panoramic National Park vistas, and signature hospitality.",
+    "urls": [
+      "https://prestigethane.com",
+      "https://www.prestigeconstructions.com/upcoming-projects/mumbai"
+    ],
+    "targetFilename": "prestige-thane.jpg",
+    "logoFilename": "prestige-group-logo.png",
+    "imageLocal": "./assets/projects/prestige-thane.jpg",
+    "imageExists": true,
+    "imageSizeKB": 20
+  },
+  {
+    "devKey": "dosti",
+    "developer": "Dosti Realty",
+    "name": "Dosti West County",
+    "microMarket": "Balkum, Thane West",
+    "region": "Thane Luxury Corridor",
+    "bhk": "1, 2, 3 & 4 BHK",
+    "price": "₹ 95 Lakhs – 2.25 Cr*",
+    "carpet": "480 – 1,350 sq.ft.",
+    "rera": "P51700015258",
+    "towers": [
+      "Dosti Cedar",
+      "Dosti Pine",
+      "Dosti Oak",
+      "Dosti Tulip",
+      "Dosti Nest"
+    ],
+    "description": "A 100-acre county development offering county living in the heart of Balkum, Thane. Features Shiamak Davar Dance Academy, Suresh Wadkar’s Ajivasan Music Academy, and state-of-the-art sports zones.",
+    "urls": [
+      "https://dostiwestcounty.com"
+    ],
+    "targetFilename": "dosti-west-county.jpg",
+    "logoFilename": "dosti-realty-logo.png",
+    "imageLocal": "./assets/projects/dosti-west-county.jpg",
+    "imageExists": true,
+    "imageSizeKB": 224
+  },
+  {
+    "devKey": "runwal-thane",
+    "developer": "Runwal",
+    "name": "Runwal One & Eirene",
+    "microMarket": "Manpada, Ghodbunder Road, Thane",
+    "region": "Thane Luxury Corridor",
+    "bhk": "2, 3 & 4 BHK",
+    "price": "₹ 1.75 Cr*",
+    "carpet": "690 – 1,580 sq.ft.",
+    "rera": "P51700052843",
+    "towers": [
+      "Runwal One Tower A",
+      "Tower B",
+      "Eirene Phase 2",
+      "The Central Green"
+    ],
+    "description": "Ultra-contemporary residential marvel set in prime Manpada behind R-Mall. Features a massive central clubhouse with double-level sports arenas, reflexology gardens, and private screening lounges.",
+    "urls": [
+      "https://runwaloneofficial.com",
+      "https://runwalrealty.com/our-project/residential-ongoing/runwal-one-redefining-urban-luxury-in-thane"
+    ],
+    "targetFilename": "runwal-one.jpg",
+    "logoFilename": "runwal-logo.png",
+    "imageLocal": "./assets/projects/runwal-one.jpg",
+    "imageExists": true,
+    "imageSizeKB": 146
+  },
+  {
+    "devKey": "bhimjyani",
+    "developer": "T. Bhimjyani Realty",
+    "name": "The Verraton & Neelkanth Woods",
+    "microMarket": "Manpada, Yeoor Foothills, Thane",
+    "region": "Thane Luxury Corridor",
+    "bhk": "3, 4 BHK & Sky Villas",
+    "price": "₹ 2.65 Cr*",
+    "carpet": "1,050 – 2,380 sq.ft.",
+    "rera": "P51700000858",
+    "towers": [
+      "The Verraton Signature Tower",
+      "Neelkanth Woods Villas",
+      "Mountain Crest Tower"
+    ],
+    "description": "A 34-acre hillside private estate located right at the Yeoor Hills perimeter. Ultra-exclusive low-density residences with private pools, open sun terraces, and unbroken verdant valley vistas.",
+    "urls": [
+      "https://verraton.in",
+      "https://tbhimjyani.com"
+    ],
+    "targetFilename": "the-verraton.jpg",
+    "logoFilename": "tbhimjyani-logo.png",
+    "imageLocal": "./assets/projects/the-verraton.jpg",
+    "imageExists": true,
+    "imageSizeKB": 40
+  }
+]

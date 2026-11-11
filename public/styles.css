@@ -38,6 +38,10 @@ section[id] { scroll-margin-top: 68px; }
 }
 .reveal.in { opacity: 1; transform: translate3d(0, 0, 0); }
 
+/* Utility for hiding scrollbars while allowing smooth scrolling */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
 /* Hero search */
 .chip {
   border-radius: 999px; padding: 7px 14px; font-size: 13px; font-weight: 500;

@@ -85,21 +85,39 @@
 
     <!-- Developers -->
     <section id="developers" class="max-w-[1440px] mx-auto px-5 md:px-10 py-20">
-      <div class="reveal mb-10">
-        <h2 class="display text-4xl md:text-5xl font-medium">Developer partners</h2>
+      <div class="reveal mb-10 flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+          <span class="text-xs font-semibold uppercase tracking-wider text-muted">Curated Representation</span>
+          <h2 class="display text-4xl md:text-5xl font-medium mt-1">Developer partners</h2>
+        </div>
+        <p class="text-sm text-muted max-w-md">Authorized representation for premier developers shaping the Mumbai MMR skyline and Thane luxury belts.</p>
       </div>
-      <div id="partnerStrip" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4"></div>
+      <div id="partnerStrip" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-3.5 sm:gap-4"></div>
     </section>
 
     <!-- Residences -->
     <section id="residences" class="max-w-[1440px] mx-auto px-5 md:px-10 py-20">
-      <div class="reveal flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
-        <div>
-          <h2 class="display text-4xl md:text-6xl font-medium">Residences</h2>
-        </div>
-        <div class="flex flex-col items-start md:items-end gap-3">
-          <div id="gridChips" class="flex flex-wrap gap-2"></div>
+      <div class="reveal flex flex-col gap-6 mb-10">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+          <div>
+            <span class="text-xs font-semibold uppercase tracking-wider text-muted">Portfolio Mandates</span>
+            <h2 class="display text-4xl md:text-6xl font-medium mt-1">Residences</h2>
+          </div>
           <p id="resultCount" class="text-sm text-muted"></p>
+        </div>
+
+        <!-- Region & Corridor Quick Filter Tabs -->
+        <div class="flex flex-wrap items-center gap-2 pt-2 border-b border-black/[0.06] pb-4">
+          <span class="text-xs text-muted mr-1 font-medium">Corridor:</span>
+          <button type="button" class="region-tab chip active" data-loc="All">All Mumbai &amp; MMR</button>
+          <button type="button" class="region-tab chip" data-loc="Thane Luxury Corridor">✨ Thane Luxury Corridor</button>
+          <button type="button" class="region-tab chip" data-loc="South Mumbai">South Mumbai</button>
+          <button type="button" class="region-tab chip" data-loc="Western Suburbs">Western Suburbs</button>
+        </div>
+
+        <!-- Horizontally Scrollable Sleek Developer Filter Pill Track -->
+        <div class="relative w-full">
+          <div id="gridChips" class="flex items-center gap-2 overflow-x-auto no-scrollbar py-1 scroll-smooth"></div>
         </div>
       </div>
       <div id="grid" class="grid md:grid-cols-2 xl:grid-cols-3 gap-x-8 gap-y-14"></div>
@@ -212,6 +230,12 @@
         <div class="mt-9">
           <p class="text-xs text-muted mb-3">Configuration &amp; RERA carpet area</p>
           <div id="dConfig" class="divide-y divide-black/[0.08] border-y border-black/[0.08]"></div>
+        </div>
+
+        <!-- Available Towers & Flagship Clusters breakdown -->
+        <div id="dTowersSection" class="mt-8 hidden">
+          <p class="text-xs text-muted mb-3">Available Towers &amp; Flagship Clusters</p>
+          <div id="dTowers" class="flex flex-wrap gap-2"></div>
         </div>
 
         <div class="mt-8 grid grid-cols-2 gap-6">

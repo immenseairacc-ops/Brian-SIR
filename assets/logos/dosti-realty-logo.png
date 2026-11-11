@@ -1,0 +1,2358 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>document.documentElement.classList.add("js");</script>
+    <title>Dosti West County | 2 &amp; 3 BHK Homes at Balkum, Thane</title>
+    <meta name="description" content="Dosti West County, Balkum Thane: 2 &amp; 3 BHK homes with 105+ amenities across 105 acres, a grand clubhouse, school and retail within the township. Near the upcoming Balkum Naka Metro Station.">
+    <meta name="theme-color" content="#4a441d">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+    <!-- Hero image actually used on the page (mobile / desktop) -->
+    <link rel="preload" as="image" type="image/webp" href="images/mob010.webp" media="(max-width: 767px)"
+        fetchpriority="high">
+    <link rel="preload" as="image" type="image/webp"
+        imagesrcset="images/desk010-1280.webp 1280w, images/desk010.webp 2000w" imagesizes="100vw"
+        media="(min-width: 768px)" fetchpriority="high">
+    <link rel="preload" href="font/FuturaBQ-DemiBold.otf" as="font" type="font/otf" crossorigin>
+
+    <!-- Cinzel: non-blocking (page paints with the fallback serif, then swaps) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&display=swap"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&display=swap">
+    </noscript>
+
+    <link rel="stylesheet" href="css/site.min.css?v=4">
+    <script src="js/site.min.js?v=4" defer></script>
+
+    <!-- Tracking (GTM x2 + Taboola): loaded on first interaction, or TP_DELAY ms after the page has loaded,
+         so they no longer compete with the hero image / main thread during load.
+         Set TP_DELAY to 0 to load them immediately again. -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window._tfa = window._tfa || [];
+        window._tfa.push({ notify: 'event', name: 'page_view', id: 1848618 });
+        (function () {
+            var TP_DELAY = 4000, started = false;
+            function addScript(src, id) {
+                var j = document.createElement('script');
+                j.async = true; j.src = src; if (id) j.id = id;
+                document.head.appendChild(j);
+            }
+            function loadTracking() {
+                if (started) return; started = true;
+                ['scroll', 'touchstart', 'pointerdown', 'keydown', 'mousemove'].forEach(function (ev) {
+                    window.removeEventListener(ev, loadTracking);
+                });
+                ['GTM-WKMH9Q9K', 'GTM-P37XPCQ'].forEach(function (id) {
+                    window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+                    addScript('https://www.googletagmanager.com/gtm.js?id=' + id);
+                });
+                addScript('//cdn.taboola.com/libtrc/unip/1848618/tfa.js', 'tb_tfa_script');
+            }
+            ['scroll', 'touchstart', 'pointerdown', 'keydown', 'mousemove'].forEach(function (ev) {
+                window.addEventListener(ev, loadTracking, { passive: true, once: true });
+            });
+            function afterLoad() { setTimeout(loadTracking, TP_DELAY); }
+            if (document.readyState === 'complete') afterLoad(); else window.addEventListener('load', afterLoad);
+        })();
+    </script>
+</head>
+
+<body id="top" data-clear-formfilled data-auto-popup>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKMH9Q9K" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path fill="currentColor" d="M3 6h18v2H3V6Zm0 5h18v2H3v-2Zm0 5h18v2H3v-2Z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path fill="currentColor" d="M18.3 5.7 12 12l6.3 6.3-1.4 1.4L10.6 13.4 12 12 5.7 5.7l1.4-1.4L13.4 10.6 12 12l6.3-6.3 1.4 1.4Z"/><path fill="currentColor" d="m5.7 18.3 12.6-12.6 1.4 1.4L7.1 19.7z"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="m15 5-7 7 7 7"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7"/></symbol>
+    <symbol id="i-zoom" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Zm10.5 3-4.8-4.8M10.5 7.5v6m-3-3h6"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><path fill="currentColor" d="M17 9V7A5 5 0 0 0 7 7v2H5v13h14V9h-2Zm-8 0V7a3 3 0 0 1 6 0v2H9Z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path fill="#fff" d="M8 5v14l11-7z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="m4 12.5 5 5L20 6.5"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16 6 10h4V3h4v7h4l-6 6Zm-8 2h16v3H4v-3Z"/></symbol>
+    <symbol id="i-rupee" viewBox="0 0 24 24"><path fill="currentColor" d="M7 3h10v2h-3.1c.5.6.8 1.3 1 2H17v2h-2.1c-.4 2.6-2.5 4.4-5.4 4.6L15.5 21h-2.8l-6.2-7.5V11.5h2.3c1.9 0 3.1-.9 3.5-2.5H7V7h5.3c-.5-1.2-1.6-2-3.3-2H7V3Z"/></symbol>
+</svg>
+
+<header class="site-header">
+    <div class="container-fluid site-header__inner">
+        <a class="brand brand--west" href="#top" aria-label="Dosti West County home">
+            <img src="assets/img/logo-dwc.webp" alt="Dosti West County, Thane West" width="720" height="174">
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+            <a href="#about">Overview</a>
+            <a href="#conf">Configuration</a>
+            <a href="#amenities">Amenities</a>
+            <a href="#loc">Location</a>
+            <a href="#gal">Gallery</a>
+            <a href="#floor">Floor Plans</a>
+            <a href="#con">Contact</a>
+                <a class="header-phone" href="tel:+919004552206">
+                <svg aria-hidden="true"><use href="#i-phone"/></svg>
+                <span>+9190045 52206</span>
+            </a>
+          
+        </nav>
+
+        <div class="header-right">
+          <a class="brand brand--dosti" href="#top" aria-label="Dosti Realty">
+                <img src="assets/img/logo-dosti-color.webp" alt="Dosti Realty – Friends for Life" width="600" height="250">
+            </a>
+            <button class="nav-toggle" type="button" data-drawer-open aria-label="Open menu" aria-controls="drawer" aria-expanded="false">
+                <svg aria-hidden="true"><use href="#i-menu"/></svg>
+            </button>
+        </div>
+    </div>
+</header>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer__backdrop" data-drawer-close></div>
+    <div class="drawer__panel" role="dialog" aria-modal="true" aria-label="Menu">
+        <div class="drawer__head">
+            <img src="assets/img/logo-dwc-white.webp" alt="Dosti West County" width="720" height="174">
+            <button class="drawer__close" type="button" data-drawer-close aria-label="Close menu">
+                <svg aria-hidden="true"><use href="#i-close"/></svg>
+            </button>
+        </div>
+        <nav class="drawer__nav" aria-label="Mobile">
+            <a href="#about">Overview</a>
+            <a href="#conf">Configuration</a>
+            <a href="#amenities">Amenities</a>
+            <a href="#loc">Location</a>
+            <a href="#advan">Connectivity</a>
+            <a href="#gal">Gallery</a>
+            <a href="#floor">Floor Plans</a>
+            <a href="#aboutus">About Dosti</a>
+            <a href="#con">Contact</a>
+        </nav>
+        <div class="drawer__foot">
+            <a class="btn btn--outline btn--block" href="tel:+9004552206"><svg aria-hidden="true"><use href="#i-phone"/></svg> Call 90045 52206</a>
+            <button class="btn btn--gold btn--block" type="button" data-enquire="Enquire Now" data-enquire-sub="Please enter your details to know more"><svg aria-hidden="true"><use href="#i-mail"/></svg> Enquire Now</button>
+        </div>
+    </div>
+</div>
+
+    <main id="main">
+
+        <!-- ============ HERO ============ -->
+
+        <section class="hero">
+            <div class="hero__media">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="images/mob010.webp" width="500" height="800">
+                    <source srcset="images/desk010-1280.webp 1280w, images/desk010.webp 2000w" sizes="100vw"
+                        width="2000" height="800">
+                    <img class="hero__img" src="images/desk010.webp" alt="Dosti West County" width="2000" height="800"
+                        fetchpriority="high" decoding="async">
+                </picture>
+            </div>
+        </section>
+
+
+        <!-- ============ OVERVIEW ============ -->
+        <div>
+            <section class="section section--ivory" id="about">
+                <div class="container overview">
+                    <div class="reveal">
+                        <img class="overview__logo" src="assets/img/logo-dwc.webp" alt="Dosti West County" width="720"
+                            height="174" loading="lazy">
+                        <h2 class="overview__title">Unleash your dream lifestyle amidst unmatched amenities at Dosti
+                            West County</h2>
+                        <p class="overview__text">Dosti West County is modern county living at its best: the convenience
+                            of a mini city with the serenity of lush green open spaces, complete with a school, retail,
+                            outdoor amenities and a clubhouse.</p>
+                        <p class="overview__text">Already home to over 1,400 families in Dosti Oak and Dosti Cedar, it
+                            will welcome a further 2,700 to 3,050+ residents in Dosti Pine, Dosti Maple, Dosti Olive,
+                            Dosti Tulip and Dosti Nest.</p>
+                        <ul class="tags" aria-label="Township highlights">
+                            <li>Lifestyle</li>
+                            <li>Education</li>
+                            <li>Sport</li>
+                            <li>Culture</li>
+                            <li>Spirituality</li>
+                            <li>Recreation</li>
+                            <li>Healthcare</li>
+                            <li>Infra &amp; Connectivity</li>
+                        </ul>
+                    </div>
+
+                    <div class="form-card reveal">
+                        <h2 class="form-card__title">2 &amp; 3 BHK Homes at Balkum, Thane</h2>
+                        <p class="form-card__sub">Share your details and our team will get in touch</p>
+                        <form id="overview-form" class="form" action="thank-you.php" method="POST" data-lead novalidate>
+                            <input type="hidden" name="source" value="Price Popup">
+                            <input type="hidden" name="enqproject" value="">
+                            <div class="field">
+                                <label class="visually-hidden" for="ov-name">Name</label>
+                                <input class="input" id="ov-name" type="text" name="fname" placeholder="Name*"
+                                    autocomplete="name" required pattern="[A-Za-z][A-Za-z ]*" maxlength="100">
+                                <span class="field__error">Please enter your name (letters only)</span>
+                            </div>
+                            <div class="field">
+                                <div class="field__row">
+                                    <input class="input input--cc" type="text" value="+91" name="cc" readonly
+                                        aria-label="Country code">
+                                    <div>
+                                        <label class="visually-hidden" for="ov-mobile">Mobile number</label>
+                                        <input class="input" id="ov-mobile" type="tel" name="mobile"
+                                            placeholder="Mobile*" inputmode="numeric" autocomplete="tel-national"
+                                            required pattern="[6-9][0-9]{9}" maxlength="10">
+                                    </div>
+                                </div>
+                                <span class="field__error">Enter a valid 10-digit mobile number</span>
+                            </div>
+                            <div class="field">
+                                <label class="visually-hidden" for="ov-email">Email</label>
+                                <input class="input" id="ov-email" type="email" name="email" placeholder="Email"
+                                    autocomplete="email">
+                                <span class="field__error">Please enter a valid email address</span>
+                            </div>
+                            <label class="consent">
+                                <input type="checkbox" name="whatsappin" value="Check" checked>
+                                <span>I authorise Dosti Realty &amp; its representatives to contact me with updates and
+                                    notifications via Email/SMS/WhatsApp/Call. This will override DND/NDNC.</span>
+                            </label>
+                            <button class="btn btn--olive btn--block" type="submit">Submit <svg aria-hidden="true">
+                                    <use href="#i-right" />
+                                </svg></button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ============ CONFIGURATION ============ -->
+        <section class="section section--sand" id="conf">
+            <div class="container">
+                <div class="section__head reveal">
+                    <h2 class="section__title">Configuration</h2>
+                </div>
+                <div class="config">
+                    <article class="config-card reveal">
+                        <h3 class="config-card__type">2 BHK</h3>
+                        <ul class="config-card__areas" aria-label="2 BHK carpet areas">
+                            <li>58.34 sq. mt. <span>628 sq. ft.</span></li>
+                            <li>61.50 sq. mt. <span>662 sq. ft.</span></li>
+                            <li>64.60 sq. mt. <span>695 sq. ft.</span></li>
+                            <li>64.90 sq. mt. <span>698 sq. ft.</span></li>
+                            <li>67.30 sq. mt. <span>725 sq. ft.</span></li>
+                            <li>68.19 sq. mt. <span>734 sq. ft.</span></li>
+                            <li>69.40 sq. mt. <span>747 sq. ft.</span></li>
+                            <li>70.32 sq. mt. <span>757 sq. ft.</span></li>
+                        </ul>
+                        <button class="btn btn--gold" type="button" data-enquire="Price"
+                            data-enquire-sub="Get price information by filling out the form below"><svg
+                                aria-hidden="true">
+                                <use href="#i-rupee" />
+                            </svg> Check Price</button>
+                    </article>
+                    <article class="config-card reveal">
+                        <h3 class="config-card__type">3 BHK</h3>
+                        <ul class="config-card__areas" aria-label="3 BHK carpet areas">
+                            <li>88.16 sq. mt. <span>949 sq. ft.</span></li>
+                            <li>94.94 sq. mt. <span>1,022 sq. ft.</span></li>
+                            <li>103.60 sq. mt. <span>1,115 sq. ft.</span></li>
+                        </ul>
+                        <button class="btn btn--gold" type="button" data-enquire="Price"
+                            data-enquire-sub="Get price information by filling out the form below"><svg
+                                aria-hidden="true">
+                                <use href="#i-rupee" />
+                            </svg> Check Price</button>
+                    </article>
+                </div>
+                <p class="note" style="text-align:center;margin-top:18px">*As per RERA carpet area</p>
+            </div>
+        </section>
+
+        <div class="strip" id="ame"> living redefined at Dosti West County</div>
+
+        <!-- ============ AMENITIES ============ -->
+        <div>
+            <section class="section section--ivory" id="amenities">
+                <div class="container">
+                    <div class="section__head reveal">
+                        <h2 class="section__title">Amenities</h2>
+                        <p class="section__lead">An open-to-sky podium of approx. 2,83,336 sq. ft. and a lavish Grand
+                            Clubhouse of approx. 44,795 sq. ft. bring amenities for every age group within a lift ride
+                            at Dosti West County.</p>
+                    </div>
+
+                    <article class="amenity reveal">
+                        <div class="amenity__media">
+                            <img src="assets/img/amenities-outdoor.webp" alt="Outdoor amenities at Dosti West County"
+                                width="1200" height="720" loading="lazy" decoding="async">
+                            <span class="credit">Actual image</span>
+                        </div>
+                        <div class="amenity__body">
+                            <h3 class="amenity__title">Outdoor Amenities</h3>
+                            <ul class="check-list">
+                                <li>Children’s Activity Area</li>
+                                <li>Cycling Track / Strolling Path</li>
+                                <li>Multipurpose Sports Court</li>
+                                <li>Pool Pavilion &amp; Deck</li>
+                                <li>Children’s Adventure Pool with Water Slide</li>
+                                <li>Olympic-Sized Swimming Pool</li>
+                                <li>Multipurpose Lawn</li>
+                                <li>The Merlion Zone</li>
+                                <li>Box Cricket</li>
+                                <li>Amphitheatre</li>
+                                <li>Lawn Tennis</li>
+                                <li>Resting Plaza</li>
+                                <li>Futsal</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="amenity amenity--flip reveal">
+                        <div class="amenity__media">
+                            <img src="assets/img/amenities-indoor.webp" alt="Indoor amenities at Dosti Club County"
+                                width="1200" height="720" loading="lazy" decoding="async">
+                            <span class="credit">Actual image</span>
+                        </div>
+                        <div class="amenity__body">
+                            <h3 class="amenity__title">Dosti Club County Amenities</h3>
+                            <ul class="check-list">
+                                <li>Toddlers’ Play Area</li>
+                                <li>Carrom and Chess Room</li>
+                                <li>Snooker Room</li>
+                                <li>Badminton Courts</li>
+                                <li>Squash Courts</li>
+                                <li>Table Tennis</li>
+                                <li>Gymnasium</li>
+                                <li>Cafeteria</li>
+                                <li>E-Library &amp; Co-working Space</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+
+        <!-- ============ LIFESTYLE SHOWCASE ============ -->
+        <section class="section section--olive lifestyle section--lazy" id="highlight">
+            <div class="container">
+                <div class="section__head reveal">
+                    <p class="eyebrow">Lifestyle</p>
+                    <h2 class="section__title">A premium lifestyle at Dosti West County</h2>
+                    <!-- <p class="section__lead">105+ amenities for every age and every hour of the day.</p> -->
+                </div>
+            </div>
+            <div class="slider slider--1 slider--overlay life-slider" data-slider data-slider-thumbs="life-thumbs">
+                <div class="slider__track" tabindex="0" aria-label="Lifestyle amenities">
+                    <figure class="slider__item life">
+                        <picture>
+                            <source media="(max-width: 767px)" type="image/webp"
+                                srcset="assets/img/lifestyle/pool-m-800.webp">
+                            <source media="(max-width: 767px)" srcset="assets/img/lifestyle/pool-m-800.jpg">
+                            <source type="image/webp" srcset="assets/img/lifestyle/pool-1600.webp">
+                            <img src="assets/img/lifestyle/pool-1600.jpg" alt="Olympic-Size Swimming Pool" width="1600"
+                                height="686" loading="lazy" decoding="async">
+                        </picture>
+                        <figcaption class="life__caption">
+                            <span class="life__num">01 / 13</span>
+                            <h3 class="life__title">Olympic-Size Swimming Pool</h3>
+                            <p class="life__text">Swim for fitness, leisure, or a refreshing break from routine.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life">
+                        <picture>
+                            <source media="(max-width: 767px)" type="image/webp"
+                                srcset="assets/img/lifestyle/gym-m-800.webp">
+                            <source media="(max-width: 767px)" srcset="assets/img/lifestyle/gym-m-800.jpg">
+                            <source type="image/webp" srcset="assets/img/lifestyle/gym-1600.webp">
+                            <img src="assets/img/lifestyle/gym-1600.jpg" alt="Gymnasium" width="1600" height="686"
+                                loading="lazy" decoding="async">
+                        </picture>
+                        <figcaption class="life__caption">
+                            <span class="life__num">02 / 13</span>
+                            <h3 class="life__title">Gymnasium</h3>
+                            <p class="life__text">Your dedicated space to train, strengthen, and stay active every day.
+                            </p>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life">
+                        <picture>
+                            <source media="(max-width: 767px)" type="image/webp"
+                                srcset="assets/img/lifestyle/greens-m-800.webp">
+                            <source media="(max-width: 767px)" srcset="assets/img/lifestyle/greens-m-800.jpg">
+                            <source type="image/webp" srcset="assets/img/lifestyle/greens-1600.webp">
+                            <img src="assets/img/lifestyle/greens-1600.jpg" alt="Sit-Outs, Walkways and Green Zones"
+                                width="1600" height="686" loading="lazy" decoding="async">
+                        </picture>
+                        <figcaption class="life__caption">
+                            <span class="life__num">03 / 13</span>
+                            <h3 class="life__title">Sit-Outs, Walkways &amp; Green Zones</h3>
+                            <p class="life__text">Quiet corners, shaded walkways and landscaped greens to slow down in.
+                            </p>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life">
+                        <picture>
+                            <source media="(max-width: 767px)" type="image/webp"
+                                srcset="assets/img/lifestyle/futsal-m-800.webp">
+                            <source media="(max-width: 767px)" srcset="assets/img/lifestyle/futsal-m-800.jpg">
+                            <source type="image/webp" srcset="assets/img/lifestyle/futsal-1600.webp">
+                            <img src="assets/img/lifestyle/futsal-1600.jpg" alt="Futsal and Box Cricket" width="1600"
+                                height="686" loading="lazy" decoding="async">
+                        </picture>
+                        <figcaption class="life__caption">
+                            <span class="life__num">04 / 13</span>
+                            <h3 class="life__title">Futsal &amp; Box Cricket</h3>
+                            <p class="life__text">Active spaces for team play, energy, and community bonding.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life">
+                        <picture>
+                            <source media="(max-width: 767px)" type="image/webp"
+                                srcset="assets/img/lifestyle/courts-m-800.webp">
+                            <source media="(max-width: 767px)" srcset="assets/img/lifestyle/courts-m-800.jpg">
+                            <source type="image/webp" srcset="assets/img/lifestyle/courts-1600.webp">
+                            <img src="assets/img/lifestyle/courts-1600.jpg"
+                                alt="Tennis, Basketball and Badminton Courts" width="1600" height="686" loading="lazy"
+                                decoding="async">
+                        </picture>
+                        <figcaption class="life__caption">
+                            <span class="life__num">05 / 13</span>
+                            <h3 class="life__title">Tennis, Basketball &amp; Badminton Courts</h3>
+                            <p class="life__text">Dedicated courts for practice, fitness, and everyday sport.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life">
+                        <picture>
+                            <source media="(max-width: 767px)" type="image/webp"
+                                srcset="assets/img/lifestyle/elibrary-m-800.webp">
+                            <source media="(max-width: 767px)" srcset="assets/img/lifestyle/elibrary-m-800.jpg">
+                            <source type="image/webp" srcset="assets/img/lifestyle/elibrary-1600.webp">
+                            <img src="assets/img/lifestyle/elibrary-1600.jpg" alt="E-Library and Co-Working Space"
+                                width="1600" height="686" loading="lazy" decoding="async">
+                        </picture>
+                        <figcaption class="life__caption">
+                            <span class="life__num">06 / 13</span>
+                            <h3 class="life__title">E-Library &amp; Co-Working Space</h3>
+                            <p class="life__text">A calm setting for reading, learning, work, and focused time.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life">
+                        <picture>
+                            <source media="(max-width: 767px)" type="image/webp"
+                                srcset="assets/img/lifestyle/toddlers-m-800.webp">
+                            <source media="(max-width: 767px)" srcset="assets/img/lifestyle/toddlers-m-800.jpg">
+                            <source type="image/webp" srcset="assets/img/lifestyle/toddlers-1600.webp">
+                            <img src="assets/img/lifestyle/toddlers-1600.jpg" alt="Toddlers’ Play Area" width="1600"
+                                height="686" loading="lazy" decoding="async">
+                        </picture>
+                        <figcaption class="life__caption">
+                            <span class="life__num">07 / 13</span>
+                            <h3 class="life__title">Toddlers&rsquo; Play Area</h3>
+                            <p class="life__text">A safe, engaging space for early play and movement.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life">
+                        <picture>
+                            <source media="(max-width: 767px)" type="image/webp"
+                                srcset="assets/img/lifestyle/kids-pool-m-800.webp">
+                            <source media="(max-width: 767px)" srcset="assets/img/lifestyle/kids-pool-m-800.jpg">
+                            <source type="image/webp" srcset="assets/img/lifestyle/kids-pool-1600.webp">
+                            <img src="assets/img/lifestyle/kids-pool-1600.jpg"
+                                alt="Children’s Adventure Pool with Water Slide" width="1600" height="686"
+                                loading="lazy" decoding="async">
+                        </picture>
+                        <figcaption class="life__caption">
+                            <span class="life__num">08 / 13</span>
+                            <h3 class="life__title">Children&rsquo;s Adventure Pool with Water Slide</h3>
+                            <p class="life__text">A playful water zone designed for young residents.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life">
+                        <picture>
+                            <source media="(max-width: 767px)" type="image/webp"
+                                srcset="assets/img/lifestyle/chess-m-800.webp">
+                            <source media="(max-width: 767px)" srcset="assets/img/lifestyle/chess-m-800.jpg">
+                            <source type="image/webp" srcset="assets/img/lifestyle/chess-1600.webp">
+                            <img src="assets/img/lifestyle/chess-1600.jpg" alt="Indoor Chess" width="1600" height="686"
+                                loading="lazy" decoding="async">
+                        </picture>
+                        <figcaption class="life__caption">
+                            <span class="life__num">09 / 13</span>
+                            <h3 class="life__title">Indoor Chess</h3>
+                            <p class="life__text">A space for strategy, patience, and thoughtful play.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life">
+                        <picture>
+                            <source media="(max-width: 767px)" type="image/webp"
+                                srcset="assets/img/lifestyle/indoor-games-m-800.webp">
+                            <source media="(max-width: 767px)" srcset="assets/img/lifestyle/indoor-games-m-800.jpg">
+                            <source type="image/webp" srcset="assets/img/lifestyle/indoor-games-1600.webp">
+                            <img src="assets/img/lifestyle/indoor-games-1600.jpg" alt="Table Tennis, Snooker and Carrom"
+                                width="1600" height="686" loading="lazy" decoding="async">
+                        </picture>
+                        <figcaption class="life__caption">
+                            <span class="life__num">10 / 13</span>
+                            <h3 class="life__title">Table Tennis, Snooker &amp; Carrom</h3>
+                            <p class="life__text">Indoor games for relaxed evenings and friendly competition.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life">
+                        <picture>
+                            <source media="(max-width: 767px)" type="image/webp"
+                                srcset="assets/img/lifestyle/ileseum-m-800.webp">
+                            <source media="(max-width: 767px)" srcset="assets/img/lifestyle/ileseum-m-800.jpg">
+                            <source type="image/webp" srcset="assets/img/lifestyle/ileseum-1600.webp">
+                            <img src="assets/img/lifestyle/ileseum-1600.jpg" alt="Ileseum Clubs" width="1600"
+                                height="686" loading="lazy" decoding="async">
+                        </picture>
+                        <figcaption class="life__caption">
+                            <span class="life__num">11 / 13</span>
+                            <h3 class="life__title">Ileseum Clubs</h3>
+                            <p class="life__text">Access to premium sports and leisure experiences designed for
+                                residents of all age groups.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life">
+                        <picture>
+                            <source media="(max-width: 767px)" type="image/webp"
+                                srcset="assets/img/lifestyle/lawns-m-800.webp">
+                            <source media="(max-width: 767px)" srcset="assets/img/lifestyle/lawns-m-800.jpg">
+                            <source type="image/webp" srcset="assets/img/lifestyle/lawns-1600.webp">
+                            <img src="assets/img/lifestyle/lawns-1600.jpg" alt="Party Lawns and Amphitheatres"
+                                width="1600" height="686" loading="lazy" decoding="async">
+                        </picture>
+                        <figcaption class="life__caption">
+                            <span class="life__num">12 / 13</span>
+                            <h3 class="life__title">Party Lawns &amp; Amphitheatres</h3>
+                            <p class="life__text">Open-air settings for gatherings, events, and celebrations.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life">
+                        <picture>
+                            <source media="(max-width: 767px)" type="image/webp"
+                                srcset="assets/img/lifestyle/clubhouse-m-800.webp">
+                            <source media="(max-width: 767px)" srcset="assets/img/lifestyle/clubhouse-m-800.jpg">
+                            <source type="image/webp" srcset="assets/img/lifestyle/clubhouse-1600.webp">
+                            <img src="assets/img/lifestyle/clubhouse-1600.jpg"
+                                alt="Grand Clubhouses and Multipurpose Halls" width="1600" height="686" loading="lazy"
+                                decoding="async">
+                        </picture>
+                        <figcaption class="life__caption">
+                            <span class="life__num">13 / 13</span>
+                            <h3 class="life__title">Grand Clubhouses &amp; Multipurpose Halls</h3>
+                            <p class="life__text">Community spaces for residents, families, and social occasions.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="slider__nav">
+                    <button class="slider__btn" type="button" data-prev aria-label="Previous amenity"><svg
+                            aria-hidden="true">
+                            <use href="#i-left" />
+                        </svg></button>
+                    <button class="slider__btn" type="button" data-next aria-label="Next amenity"><svg
+                            aria-hidden="true">
+                            <use href="#i-right" />
+                        </svg></button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="strip-wrap" data-strip="life-thumbs">
+                    <button class="strip-arrow strip-arrow--prev" type="button" data-strip-prev
+                        aria-label="Scroll amenities list left"><svg aria-hidden="true">
+                            <use href="#i-left" />
+                        </svg></button>
+                    <div class="life__thumbs" id="life-thumbs" aria-label="Jump to an amenity">
+                        <button class="life__thumb" type="button" data-slide="0" aria-current="true">Olympic-Size
+                            Swimming Pool</button>
+                        <button class="life__thumb" type="button" data-slide="1">Gymnasium</button>
+                        <button class="life__thumb" type="button" data-slide="2">Sit-Outs, Walkways &amp; Green
+                            Zones</button>
+                        <button class="life__thumb" type="button" data-slide="3">Futsal &amp; Box Cricket</button>
+                        <button class="life__thumb" type="button" data-slide="4">Tennis, Basketball &amp; Badminton
+                            Courts</button>
+                        <button class="life__thumb" type="button" data-slide="5">E-Library &amp; Co-Working
+                            Space</button>
+                        <button class="life__thumb" type="button" data-slide="6">Toddlers&rsquo; Play Area</button>
+                        <button class="life__thumb" type="button" data-slide="7">Children&rsquo;s Adventure Pool with
+                            Water Slide</button>
+                        <button class="life__thumb" type="button" data-slide="8">Indoor Chess</button>
+                        <button class="life__thumb" type="button" data-slide="9">Table Tennis, Snooker &amp;
+                            Carrom</button>
+                        <button class="life__thumb" type="button" data-slide="10">Ileseum Clubs</button>
+                        <button class="life__thumb" type="button" data-slide="11">Party Lawns &amp;
+                            Amphitheatres</button>
+                        <button class="life__thumb" type="button" data-slide="12">Grand Clubhouses &amp; Multipurpose
+                            Halls</button>
+                    </div>
+                    <button class="strip-arrow strip-arrow--next" type="button" data-strip-next
+                        aria-label="Scroll amenities list right"><svg aria-hidden="true">
+                            <use href="#i-right" />
+                        </svg></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ LOCATION ============ -->
+        <div>
+            <section class="section section--ivory section--lazy" id="loc">
+                <div class="container-fluid">
+                    <div class="section__head reveal">
+                        <h2 class="section__title">Location Highlights &amp; Advantages</h2>
+                    </div>
+                    <div class="location">
+                        <div class="location__map reveal">
+                            <p class="location__tag">Just <span>10 mins</span> from Lake Shore Mall, Thane</p>
+                            <div class="map" data-map-config="map-config"
+                                data-map-title="Map: Dosti West County, Balkum, Thane West">
+                                <div class="map__placeholder" aria-hidden="true"><svg>
+                                        <use href="#i-pin" />
+                                    </svg><span>Loading map&hellip;</span></div>
+                            </div>
+                            <div class="map__links">
+                                <a class="btn btn--gold btn--sm"
+                                    href="https://www.google.com/maps/dir/?api=1&amp;destination=19.2268655,72.9937096"
+                                    target="_blank" rel="noopener"><svg aria-hidden="true">
+                                        <use href="#i-pin" />
+                                    </svg> Get directions</a>
+                            </div>
+                            <!-- Map settings. key = Google Maps browser key (website-restricted). center = the project pin.
+                                 groups = heading shown for each group, in display order.
+                                 landmarks = [name, drive minutes, latitude, longitude, group]; edit, add or remove rows freely. -->
+                            <script type="application/json" id="map-config">
+                            {
+                              "key": "AIzaSyD51slUgV1irKxEGSDQCTu5AM_m3hYVq8A",
+                              "name": "Dosti West County",
+                              "query": "Dosti West County",
+                              "center": [19.2268655, 72.9937096],
+                              "groups": [
+                                ["Connectivity", "Connectivity"],
+                                ["Schools", "Educational Institutes"],
+                                ["Shopping", "Malls & Hypermarkets"],
+                                ["Dining", "Fine Dining Restaurants"],
+                                ["Hospitals", "Multi-Speciality Hospitals"],
+                                ["Park", "Park"]
+                              ],
+                              "landmarks": [
+                                ["Balkum Metro (Upcoming)", 1, 19.2213830, 72.9871703, "Connectivity"],
+                                ["Eastern Express Highway", 5, 19.1722463, 72.9684531, "Connectivity"],
+                                ["Thane Railway Station", 20, 19.1864587, 72.9754684, "Connectivity"],
+                                ["Vashi", 35, 19.0744857, 72.9977841, "Connectivity"],
+                                ["Borivali", 40, 19.2307329, 72.8566730, "Connectivity"],
+                                ["Mumbai International Airport (T2)", 45, 19.0974000, 72.8745000, "Connectivity"],
+                                ["Lake Shore Mall (formerly Viviana)", 10, 19.2086541, 72.9716614, "Shopping"],
+                                ["R Mall", 10, 19.2301065, 72.9773884, "Shopping"],
+                                ["Korum Mall", 15, 19.2028031, 72.9653798, "Shopping"],
+                                ["Big Bazaar (Big Centre)", 15, 19.2679714, 72.9656844, "Shopping"],
+                                ["Asia Kitchen by Mainland China", 8, 19.2089133, 72.9716910, "Dining"],
+                                ["Barbeque Nation", 10, 19.2029367, 72.9651819, "Dining"],
+                                ["China Bistro", 10, 19.2195436, 72.9702540, "Dining"],
+                                ["Oriental Spice", 10, 19.2329418, 72.9753623, "Dining"],
+                                ["Urban Tadka", 12, 19.2028388, 72.9655795, "Dining"],
+                                ["EuroSchool (within the township)", 0, 19.2279393, 72.9964066, "Schools"],
+                                ["St. Xavier's English High School", 10, 19.2402688, 72.9768239, "Schools"],
+                                ["C.P. Goenka International School", 10, 19.2172419, 72.9794457, "Schools"],
+                                ["Orchids The International School", 20, 19.2419319, 72.9830907, "Schools"],
+                                ["Jupiter Hospital", 10, 19.2097096, 72.9723931, "Hospitals"],
+                                ["Hiranandani Hospital", 15, 19.2525580, 72.9801821, "Hospitals"],
+                                ["Life Care Hospital", 20, 19.2086992, 72.9602205, "Hospitals"],
+                                ["Horizon Prime Hospital", 20, 19.2481901, 72.9754120, "Hospitals"],
+                                ["Grand Central Park", 2, 19.2288900, 72.9902800, "Park"]
+                              ]
+                            }
+                            </script>
+                        </div>
+                        <div class="location__legend reveal" data-legend aria-label="Landmarks and drive times">
+                            <noscript>
+                                <p class="note">Enable JavaScript to see the landmark map.</p>
+                            </noscript>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ============ CONNECTIVITY ============ -->
+        <section class="section section--olive lifestyle infra section--lazy" id="advan">
+            <div class="container">
+                <div class="section__head reveal">
+                    <p class="eyebrow">Connectivity</p>
+                    <h2 class="section__title">Discover unmatched connectivity at Dosti West County</h2>
+                    <!-- <p class="section__lead">Thane is projected to grow by up to 50% over the next five years on the
+                        back of its infrastructure. These proposed and under-construction projects put the city, and the
+                        region, within easy reach.</p> -->
+                </div>
+            </div>
+            <div class="slider slider--overlay life-slider infra-slider" data-slider data-slider-thumbs="infra-thumbs">
+                <div class="slider__track" tabindex="0" aria-label="Upcoming infrastructure">
+                    <figure class="slider__item life life--infra">
+                        <img src="assets/img/conntivity/1.webp" alt="" width="800" height="480" loading="lazy" decoding="async">
+                        <figcaption class="life__caption">
+                            <span class="life__num">01 / 11</span>
+                            <h3 class="life__title life__title--sm">Thane–Bhiwandi–Kalyan Metro Line 5</h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life life--infra">
+                        <img src="assets/img/conntivity/2.webp" alt="" width="800" height="480" loading="lazy"
+                            decoding="async">
+                        <figcaption class="life__caption">
+                            <span class="life__num">02 / 11</span>
+                            <h3 class="life__title life__title--sm">Virar–Alibaug Multi-Modal Transport Corridor</h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life life--infra">
+                        <img src="assets/img/conntivity/3.webp" alt="" width="800" height="480" loading="lazy"
+                            decoding="async">
+                        <figcaption class="life__caption">
+                            <span class="life__num">03 / 11</span>
+                            <h3 class="life__title life__title--sm">Mumbai–Thane–Ahmedabad Bullet Train</h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life life--infra">
+                        <img src="images/thane--borivali-tunnel.webp" alt="" width="800" height="480" loading="lazy"
+                            decoding="async">
+                        <figcaption class="life__caption">
+                            <span class="life__num">04 / 11</span>
+                            <h3 class="life__title life__title--sm">Thane–Borivali Tunnel</h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life life--infra">
+                        <img src="assets/img/conntivity/5.webp" alt="" width="800" height="480" loading="lazy"
+                            decoding="async">
+                        <figcaption class="life__caption">
+                            <span class="life__num">05 / 11</span>
+                            <h3 class="life__title life__title--sm">Thane–Chembur Eastern Freeway</h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life life--infra">
+                        <img src="images/balkumcostalroad.webp" alt="" width="800" height="480" loading="lazy"
+                            decoding="async">
+                        <figcaption class="life__caption">
+                            <span class="life__num">06 / 11</span>
+                            <h3 class="life__title life__title--sm">Balkum to Gaimukh Coastal Road</h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life life--infra">
+                        <img src="images/thanedombivalbridgee.webp" alt="" width="800" height="480" loading="lazy"
+                            decoding="async">
+                        <figcaption class="life__caption">
+                            <span class="life__num">07 / 11</span>
+                            <h3 class="life__title life__title--sm">Thane–Dombivli Bridge</h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life life--infra">
+                        <img src="assets/img/conntivity/8.webp" alt="" width="800" height="480" loading="lazy"
+                            decoding="async">
+                        <figcaption class="life__caption">
+                            <span class="life__num">08 / 11</span>
+                            <h3 class="life__title life__title--sm">Ro-Ro Waterways</h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life life--infra">
+                        <img src="assets/img/conntivity/9.webp" alt="" width="800" height="480" loading="lazy"
+                            decoding="async">
+                        <figcaption class="life__caption">
+                            <span class="life__num">09 / 11</span>
+                            <h3 class="life__title life__title--sm">Thane–Bhiwandi Flyover</h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life life--infra">
+                        <img src="assets/img/conntivity/10.webp" alt="" width="800" height="480" loading="lazy"
+                            decoding="async">
+                        <figcaption class="life__caption">
+                            <span class="life__num">10 / 11</span>
+                            <h3 class="life__title life__title--sm">CST–Thane Road</h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="slider__item life life--infra">
+                        <img src="images/undergroundbridge.webp" alt="" width="800" height="480" loading="lazy"
+                            decoding="async">
+                        <figcaption class="life__caption">
+                            <span class="life__num">11 / 11</span>
+                            <h3 class="life__title life__title--sm">Underground Railway Line</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="slider__nav">
+                    <button class="slider__btn" type="button" data-prev aria-label="Previous"><svg aria-hidden="true">
+                            <use href="#i-left" />
+                        </svg></button>
+                    <button class="slider__btn" type="button" data-next aria-label="Next"><svg aria-hidden="true">
+                            <use href="#i-right" />
+                        </svg></button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="strip-wrap" data-strip="infra-thumbs">
+                    <button class="strip-arrow strip-arrow--prev" type="button" data-strip-prev
+                        aria-label="Scroll projects list left"><svg aria-hidden="true">
+                            <use href="#i-left" />
+                        </svg></button>
+                    <div class="life__thumbs" id="infra-thumbs" aria-label="Jump to a project">
+                        <button class="life__thumb" type="button" data-slide="0"
+                            aria-current="true">Thane–Bhiwandi–Kalyan Metro Line 5</button>
+                        <button class="life__thumb" type="button" data-slide="1">Virar–Alibaug Multi-Modal Transport
+                            Corridor</button>
+                        <button class="life__thumb" type="button" data-slide="2">Mumbai–Thane–Ahmedabad Bullet
+                            Train</button>
+                        <button class="life__thumb" type="button" data-slide="3">Thane–Borivali Tunnel</button>
+                        <button class="life__thumb" type="button" data-slide="4">Thane–Chembur Eastern Freeway</button>
+                        <button class="life__thumb" type="button" data-slide="5">Balkum to Gaimukh Coastal Road</button>
+                        <button class="life__thumb" type="button" data-slide="6">Thane–Dombivli Bridge</button>
+                        <button class="life__thumb" type="button" data-slide="7">Ro-Ro Waterways</button>
+                        <button class="life__thumb" type="button" data-slide="8">Thane–Bhiwandi Flyover</button>
+                        <button class="life__thumb" type="button" data-slide="9">CST–Thane Road</button>
+                        <button class="life__thumb" type="button" data-slide="10">Underground Railway Line</button>
+                    </div>
+                    <button class="strip-arrow strip-arrow--next" type="button" data-strip-next
+                        aria-label="Scroll projects list right"><svg aria-hidden="true">
+                            <use href="#i-right" />
+                        </svg></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ GALLERY ============ -->
+        <div>
+            <section class="section section--ivory section--lazy" id="gal">
+                <div class="container">
+                    <div class="section__head reveal">
+                        <h2 class="section__title">Gallery</h2>
+                    </div>
+
+                    <div class="tabs" data-tabs>
+                        <div class="tabs__list" role="tablist" aria-label="Gallery categories">
+                            <button class="tabs__btn" role="tab" type="button" id="tab-elev" aria-controls="gal-elev"
+                                aria-selected="true">Elevation</button>
+                            <button class="tabs__btn" role="tab" type="button" id="tab-amen" aria-controls="gal-amen"
+                                aria-selected="false">Amenities</button>
+                            <button class="tabs__btn" role="tab" type="button" id="tab-westwood"
+                                aria-controls="gal-westwood" aria-selected="false">Dosti Westwood</button>
+                            <button class="tabs__btn" role="tab" type="button" id="tab-views" aria-controls="gal-views"
+                                aria-selected="false">Views</button>
+                            <button class="tabs__btn" role="tab" type="button" id="tab-show" aria-controls="gal-show"
+                                aria-selected="false">Show Flats</button>
+                            <button class="tabs__btn" role="tab" type="button" id="tab-construction"
+                                aria-controls="gal-construction" aria-selected="false">Construction Update</button>
+                            <button class="tabs__btn" role="tab" type="button" id="tab-videos"
+                                aria-controls="gal-videos" aria-selected="false">Videos</button>
+                        </div>
+
+                        <div class="tabs__panel" id="gal-elev" role="tabpanel" aria-labelledby="tab-elev">
+                            <div class="slider slider--overlay" data-slider>
+                                <div class="slider__track" tabindex="0" aria-label="Elevation images">
+                                    <a class="slider__item tile" href="images/gallery/elevation/1.jpg"
+                                        data-lightbox="elev" data-caption="Elevation – Artist’s impression"><img
+                                            src="assets/img/gallery/elevation/1.webp" alt="Elevation view 1" width="800"
+                                            height="800" loading="lazy" decoding="async"><span class="credit">Artist’s
+                                            impression</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/elevation/2.jpg"
+                                        data-lightbox="elev" data-caption="Elevation – Artist’s impression"><img
+                                            src="assets/img/gallery/elevation/2.webp" alt="Elevation view 2" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Artist’s
+                                            impression</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/elevation/3.jpg"
+                                        data-lightbox="elev" data-caption="Elevation – Artist’s impression"><img
+                                            src="assets/img/gallery/elevation/3.webp" alt="Elevation view 3" width="800"
+                                            height="800" loading="lazy" decoding="async"><span class="credit">Artist’s
+                                            impression</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/elevation/4.jpg"
+                                        data-lightbox="elev" data-caption="Elevation – Artist’s impression"><img
+                                            src="assets/img/gallery/elevation/4.webp" alt="Elevation view 4" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Artist’s
+                                            impression</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/elevation/5.jpg"
+                                        data-lightbox="elev" data-caption="Elevation – Artist’s impression"><img
+                                            src="assets/img/gallery/elevation/5.webp" alt="Elevation view 5" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Artist’s
+                                            impression</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/elevation/6.jpg"
+                                        data-lightbox="elev" data-caption="Elevation – Artist’s impression"><img
+                                            src="assets/img/gallery/elevation/6.webp" alt="Elevation view 6" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Artist’s
+                                            impression</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                </div>
+                                <div class="slider__nav"><button class="slider__btn" type="button" data-prev
+                                        aria-label="Previous"><svg aria-hidden="true">
+                                            <use href="#i-left" />
+                                        </svg></button><button class="slider__btn" type="button" data-next
+                                        aria-label="Next"><svg aria-hidden="true">
+                                            <use href="#i-right" />
+                                        </svg></button></div>
+                            </div>
+                        </div>
+
+                        <div class="tabs__panel" id="gal-amen" role="tabpanel" aria-labelledby="tab-amen" hidden>
+                            <div class="slider slider--overlay" data-slider>
+                                <div class="slider__track" tabindex="0" aria-label="Amenity images">
+                                    <a class="slider__item tile" href="images/gallery/gal/ame1.jpg" data-lightbox="amen"
+                                        data-caption="Amenities – Actual image"><img
+                                            src="assets/img/gallery/gal/ame1.webp" alt="Amenity 1" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Actual
+                                            image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame2.jpg" data-lightbox="amen"
+                                        data-caption="Amenities – Actual image"><img
+                                            src="assets/img/gallery/gal/ame2.webp" alt="Amenity 2" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Actual
+                                            image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame3.jpg" data-lightbox="amen"
+                                        data-caption="Amenities – Actual image"><img
+                                            src="assets/img/gallery/gal/ame3.webp" alt="Amenity 3" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Actual
+                                            image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame4.jpg" data-lightbox="amen"
+                                        data-caption="Amenities – Actual image"><img
+                                            src="assets/img/gallery/gal/ame4.webp" alt="Amenity 4" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Actual
+                                            image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame5.jpg" data-lightbox="amen"
+                                        data-caption="Amenities – Actual image"><img
+                                            src="assets/img/gallery/gal/ame5.webp" alt="Amenity 5" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Actual
+                                            image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame6.jpg" data-lightbox="amen"
+                                        data-caption="Amenities – Actual image"><img
+                                            src="assets/img/gallery/gal/ame6.webp" alt="Amenity 6" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Actual
+                                            image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame8.jpg" data-lightbox="amen"
+                                        data-caption="Amenities – Actual image"><img
+                                            src="assets/img/gallery/gal/ame8.webp" alt="Amenity 7" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Actual
+                                            image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame9.jpg" data-lightbox="amen"
+                                        data-caption="Amenities – Actual image"><img
+                                            src="assets/img/gallery/gal/ame9.webp" alt="Amenity 8" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Actual
+                                            image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame10.jpg"
+                                        data-lightbox="amen" data-caption="Amenities – Actual image"><img
+                                            src="assets/img/gallery/gal/ame10.webp" alt="Amenity 9" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Actual
+                                            image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame11.jpg"
+                                        data-lightbox="amen" data-caption="Amenities – Actual image"><img
+                                            src="assets/img/gallery/gal/ame11.webp" alt="Amenity 10" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Actual
+                                            image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame12.jpg"
+                                        data-lightbox="amen" data-caption="Amenities – Actual image"><img
+                                            src="assets/img/gallery/gal/ame12.webp" alt="Amenity 11" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Actual
+                                            image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame13.jpg"
+                                        data-lightbox="amen" data-caption="Amenities – Actual image"><img
+                                            src="assets/img/gallery/gal/ame13.webp" alt="Amenity 12" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Actual
+                                            image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame14.jpg"
+                                        data-lightbox="amen" data-caption="Amenities – Artist’s impression"><img
+                                            src="assets/img/gallery/gal/ame14.webp" alt="Amenity 13" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Artist’s
+                                            impression</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame15.jpg"
+                                        data-lightbox="amen" data-caption="Amenities – Artist’s impression"><img
+                                            src="assets/img/gallery/gal/ame15.webp" alt="Amenity 14" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Artist’s
+                                            impression</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame16.jpg"
+                                        data-lightbox="amen" data-caption="Amenities – Artist’s impression"><img
+                                            src="assets/img/gallery/gal/ame16.webp" alt="Amenity 15" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Artist’s
+                                            impression</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/gal/ame17.jpg"
+                                        data-lightbox="amen" data-caption="Amenities – Artist’s impression"><img
+                                            src="assets/img/gallery/gal/ame17.webp" alt="Amenity 16" width="800"
+                                            height="480" loading="lazy" decoding="async"><span class="credit">Artist’s
+                                            impression</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                </div>
+                                <div class="slider__nav"><button class="slider__btn" type="button" data-prev
+                                        aria-label="Previous"><svg aria-hidden="true">
+                                            <use href="#i-left" />
+                                        </svg></button><button class="slider__btn" type="button" data-next
+                                        aria-label="Next"><svg aria-hidden="true">
+                                            <use href="#i-right" />
+                                        </svg></button></div>
+                            </div>
+                        </div>
+
+                        <div class="tabs__panel" id="gal-westwood" role="tabpanel" aria-labelledby="tab-westwood"
+                            hidden>
+                            <div class="slider slider--overlay" data-slider>
+                                <div class="slider__track" tabindex="0" aria-label="Dosti Westwood images">
+                                    <a class="slider__item tile" href="images/gallery/interior/west2.jpg"
+                                        data-lightbox="westwood" data-caption="Dosti Westwood – Actual image"><img
+                                            src="assets/img/gallery/interior/west2.webp" alt="Dosti Westwood 1"
+                                            width="800" height="480" loading="lazy" decoding="async"><span
+                                            class="credit">Actual image</span><span class="tile__zoom"><svg
+                                                aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/interior/west3.jpg"
+                                        data-lightbox="westwood" data-caption="Dosti Westwood – Actual image"><img
+                                            src="assets/img/gallery/interior/west3.webp" alt="Dosti Westwood 2"
+                                            width="800" height="480" loading="lazy" decoding="async"><span
+                                            class="credit">Actual image</span><span class="tile__zoom"><svg
+                                                aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/interior/west4.jpg"
+                                        data-lightbox="westwood" data-caption="Dosti Westwood – Actual image"><img
+                                            src="assets/img/gallery/interior/west4.webp" alt="Dosti Westwood 3"
+                                            width="800" height="480" loading="lazy" decoding="async"><span
+                                            class="credit">Actual image</span><span class="tile__zoom"><svg
+                                                aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/interior/5.jpg"
+                                        data-lightbox="westwood" data-caption="Guest rooms – Stock image"><img
+                                            src="assets/img/gallery/interior/5.webp" alt="Guest rooms" width="500"
+                                            height="250" loading="lazy" decoding="async"><span class="credit">Guest
+                                            rooms – Stock image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                </div>
+                                <div class="slider__nav"><button class="slider__btn" type="button" data-prev
+                                        aria-label="Previous"><svg aria-hidden="true">
+                                            <use href="#i-left" />
+                                        </svg></button><button class="slider__btn" type="button" data-next
+                                        aria-label="Next"><svg aria-hidden="true">
+                                            <use href="#i-right" />
+                                        </svg></button></div>
+                            </div>
+                        </div>
+
+                        <div class="tabs__panel" id="gal-views" role="tabpanel" aria-labelledby="tab-views" hidden>
+                            <div class="slider slider--overlay" data-slider>
+                                <div class="slider__track" tabindex="0" aria-label="View images">
+                                    <a class="slider__item tile" href="images/gallery/view/1.jpg" data-lightbox="views"
+                                        data-caption="Views"><img src="assets/img/gallery/view/1.webp" alt="View 1"
+                                            width="800" height="480" loading="lazy" decoding="async"><span
+                                            class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/view/2.jpg" data-lightbox="views"
+                                        data-caption="Views"><img src="assets/img/gallery/view/2.webp" alt="View 2"
+                                            width="800" height="480" loading="lazy" decoding="async"><span
+                                            class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/view/3.jpg" data-lightbox="views"
+                                        data-caption="Views"><img src="assets/img/gallery/view/3.webp" alt="View 3"
+                                            width="800" height="480" loading="lazy" decoding="async"><span
+                                            class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/view/4.jpg" data-lightbox="views"
+                                        data-caption="Views"><img src="assets/img/gallery/view/4.webp" alt="View 4"
+                                            width="800" height="480" loading="lazy" decoding="async"><span
+                                            class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/view/5.jpg" data-lightbox="views"
+                                        data-caption="Views"><img src="assets/img/gallery/view/5.webp" alt="View 5"
+                                            width="800" height="480" loading="lazy" decoding="async"><span
+                                            class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/view/6.jpg" data-lightbox="views"
+                                        data-caption="Views"><img src="assets/img/gallery/view/6.webp" alt="View 6"
+                                            width="800" height="480" loading="lazy" decoding="async"><span
+                                            class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/view/9.jpg" data-lightbox="views"
+                                        data-caption="Views"><img src="assets/img/gallery/view/9.webp" alt="View 7"
+                                            width="800" height="480" loading="lazy" decoding="async"><span
+                                            class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/view/10.jpg" data-lightbox="views"
+                                        data-caption="Views"><img src="assets/img/gallery/view/10.webp" alt="View 8"
+                                            width="800" height="480" loading="lazy" decoding="async"><span
+                                            class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/view/11.jpg" data-lightbox="views"
+                                        data-caption="Views"><img src="assets/img/gallery/view/11.webp" alt="View 9"
+                                            width="800" height="480" loading="lazy" decoding="async"><span
+                                            class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                    <a class="slider__item tile" href="images/gallery/view/12.jpg" data-lightbox="views"
+                                        data-caption="Views"><img src="assets/img/gallery/view/12.webp" alt="View 10"
+                                            width="800" height="480" loading="lazy" decoding="async"><span
+                                            class="tile__zoom"><svg aria-hidden="true">
+                                                <use href="#i-zoom" />
+                                            </svg></span></a>
+                                </div>
+                                <div class="slider__nav"><button class="slider__btn" type="button" data-prev
+                                        aria-label="Previous"><svg aria-hidden="true">
+                                            <use href="#i-left" />
+                                        </svg></button><button class="slider__btn" type="button" data-next
+                                        aria-label="Next"><svg aria-hidden="true">
+                                            <use href="#i-right" />
+                                        </svg></button></div>
+                            </div>
+                        </div>
+
+                        <div class="tabs__panel" id="gal-show" role="tabpanel" aria-labelledby="tab-show" hidden>
+                            <div class="tabs tabs--sub" data-tabs>
+                                <div class="tabs__list" role="tablist" aria-label="Show flats">
+                                    <button class="tabs__btn" role="tab" type="button" id="tab-show-olive"
+                                        aria-controls="show-olive" aria-selected="true">Dosti Olive Flats</button>
+                                    <button class="tabs__btn" role="tab" type="button" id="tab-show-pine"
+                                        aria-controls="show-pine" aria-selected="false">Dosti Pine Flats</button>
+                                </div>
+                                <div class="tabs__panel" id="show-olive" role="tabpanel"
+                                    aria-labelledby="tab-show-olive">
+                                    <div class="slider slider--overlay" data-slider>
+                                        <div class="slider__track" tabindex="0" aria-label="Dosti Olive show flat">
+                                            <a class="slider__item tile" href="images/gallery/olivwshow/1.jpg"
+                                                data-lightbox="olive"
+                                                data-caption="Dosti Olive show flat – Actual image"><img
+                                                    src="assets/img/gallery/olivwshow/1.webp"
+                                                    alt="Dosti Olive show flat 1" width="800" height="480"
+                                                    loading="lazy" decoding="async"><span class="credit">Show flat –
+                                                    Actual image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/olivwshow/2.jpg"
+                                                data-lightbox="olive"
+                                                data-caption="Dosti Olive show flat – Actual image"><img
+                                                    src="assets/img/gallery/olivwshow/2.webp"
+                                                    alt="Dosti Olive show flat 2" width="800" height="480"
+                                                    loading="lazy" decoding="async"><span class="credit">Show flat –
+                                                    Actual image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/olivwshow/3.jpg"
+                                                data-lightbox="olive"
+                                                data-caption="Dosti Olive show flat – Actual image"><img
+                                                    src="assets/img/gallery/olivwshow/3.webp"
+                                                    alt="Dosti Olive show flat 3" width="800" height="480"
+                                                    loading="lazy" decoding="async"><span class="credit">Show flat –
+                                                    Actual image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/olivwshow/4.jpg"
+                                                data-lightbox="olive"
+                                                data-caption="Dosti Olive show flat – Actual image"><img
+                                                    src="assets/img/gallery/olivwshow/4.webp"
+                                                    alt="Dosti Olive show flat 4" width="800" height="480"
+                                                    loading="lazy" decoding="async"><span class="credit">Show flat –
+                                                    Actual image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/olivwshow/5.jpg"
+                                                data-lightbox="olive"
+                                                data-caption="Dosti Olive show flat – Actual image"><img
+                                                    src="assets/img/gallery/olivwshow/5.webp"
+                                                    alt="Dosti Olive show flat 5" width="800" height="480"
+                                                    loading="lazy" decoding="async"><span class="credit">Show flat –
+                                                    Actual image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/olivwshow/6.jpg"
+                                                data-lightbox="olive"
+                                                data-caption="Dosti Olive show flat – Actual image"><img
+                                                    src="assets/img/gallery/olivwshow/6.webp"
+                                                    alt="Dosti Olive show flat 6" width="800" height="480"
+                                                    loading="lazy" decoding="async"><span class="credit">Show flat –
+                                                    Actual image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/olivwshow/7.jpg"
+                                                data-lightbox="olive"
+                                                data-caption="Dosti Olive show flat – Actual image"><img
+                                                    src="assets/img/gallery/olivwshow/7.webp"
+                                                    alt="Dosti Olive show flat 7" width="800" height="480"
+                                                    loading="lazy" decoding="async"><span class="credit">Show flat –
+                                                    Actual image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/olivwshow/8.jpg"
+                                                data-lightbox="olive"
+                                                data-caption="Dosti Olive show flat – Actual image"><img
+                                                    src="assets/img/gallery/olivwshow/8.webp"
+                                                    alt="Dosti Olive show flat 8" width="800" height="480"
+                                                    loading="lazy" decoding="async"><span class="credit">Show flat –
+                                                    Actual image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/olivwshow/9.jpg"
+                                                data-lightbox="olive"
+                                                data-caption="Dosti Olive show flat – Actual image"><img
+                                                    src="assets/img/gallery/olivwshow/9.webp"
+                                                    alt="Dosti Olive show flat 9" width="800" height="480"
+                                                    loading="lazy" decoding="async"><span class="credit">Show flat –
+                                                    Actual image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/olivwshow/10.jpg"
+                                                data-lightbox="olive"
+                                                data-caption="Dosti Olive show flat – Actual image"><img
+                                                    src="assets/img/gallery/olivwshow/10.webp"
+                                                    alt="Dosti Olive show flat 10" width="800" height="480"
+                                                    loading="lazy" decoding="async"><span class="credit">Show flat –
+                                                    Actual image</span><span class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                        </div>
+                                        <div class="slider__nav"><button class="slider__btn" type="button" data-prev
+                                                aria-label="Previous"><svg aria-hidden="true">
+                                                    <use href="#i-left" />
+                                                </svg></button><button class="slider__btn" type="button" data-next
+                                                aria-label="Next"><svg aria-hidden="true">
+                                                    <use href="#i-right" />
+                                                </svg></button></div>
+                                    </div>
+                                </div>
+                                <div class="tabs__panel" id="show-pine" role="tabpanel" aria-labelledby="tab-show-pine"
+                                    hidden>
+                                    <div class="slider slider--overlay" data-slider>
+                                        <div class="slider__track" tabindex="0" aria-label="Dosti Pine show flat">
+                                            <a class="slider__item tile" href="images/gallery/show/1.webp"
+                                                data-lightbox="pine"
+                                                data-caption="Dosti Pine show flat – Actual image"><img
+                                                    src="assets/img/gallery/show/1.webp" alt="Dosti Pine show flat 1"
+                                                    width="600" height="1000" loading="lazy" decoding="async"><span
+                                                    class="credit">Show flat – Actual image</span><span
+                                                    class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/show/2.webp"
+                                                data-lightbox="pine"
+                                                data-caption="Dosti Pine show flat – Actual image"><img
+                                                    src="assets/img/gallery/show/2.webp" alt="Dosti Pine show flat 2"
+                                                    width="600" height="1000" loading="lazy" decoding="async"><span
+                                                    class="credit">Show flat – Actual image</span><span
+                                                    class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/show/3.webp"
+                                                data-lightbox="pine"
+                                                data-caption="Dosti Pine show flat – Actual image"><img
+                                                    src="assets/img/gallery/show/3.webp" alt="Dosti Pine show flat 3"
+                                                    width="600" height="1000" loading="lazy" decoding="async"><span
+                                                    class="credit">Show flat – Actual image</span><span
+                                                    class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/show/4.webp"
+                                                data-lightbox="pine"
+                                                data-caption="Dosti Pine show flat – Actual image"><img
+                                                    src="assets/img/gallery/show/4.webp" alt="Dosti Pine show flat 4"
+                                                    width="600" height="360" loading="lazy" decoding="async"><span
+                                                    class="credit">Show flat – Actual image</span><span
+                                                    class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/show/5.webp"
+                                                data-lightbox="pine"
+                                                data-caption="Dosti Pine show flat – Actual image"><img
+                                                    src="assets/img/gallery/show/5.webp" alt="Dosti Pine show flat 5"
+                                                    width="600" height="360" loading="lazy" decoding="async"><span
+                                                    class="credit">Show flat – Actual image</span><span
+                                                    class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/show/6.webp"
+                                                data-lightbox="pine"
+                                                data-caption="Dosti Pine show flat – Actual image"><img
+                                                    src="assets/img/gallery/show/6.webp" alt="Dosti Pine show flat 6"
+                                                    width="600" height="360" loading="lazy" decoding="async"><span
+                                                    class="credit">Show flat – Actual image</span><span
+                                                    class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                            <a class="slider__item tile" href="images/gallery/show/7.webp"
+                                                data-lightbox="pine"
+                                                data-caption="Dosti Pine show flat – Actual image"><img
+                                                    src="assets/img/gallery/show/7.webp" alt="Dosti Pine show flat 7"
+                                                    width="600" height="360" loading="lazy" decoding="async"><span
+                                                    class="credit">Show flat – Actual image</span><span
+                                                    class="tile__zoom"><svg aria-hidden="true">
+                                                        <use href="#i-zoom" />
+                                                    </svg></span></a>
+                                        </div>
+                                        <div class="slider__nav"><button class="slider__btn" type="button" data-prev
+                                                aria-label="Previous"><svg aria-hidden="true">
+                                                    <use href="#i-left" />
+                                                </svg></button><button class="slider__btn" type="button" data-next
+                                                aria-label="Next"><svg aria-hidden="true">
+                                                    <use href="#i-right" />
+                                                </svg></button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tabs__panel" id="gal-construction" role="tabpanel"
+                            aria-labelledby="tab-construction" hidden>
+                            <p class="month">September 2026</p>
+                            <div class="video-single">
+                                <div class="yt" data-id="nZDHOsLUx7U">
+                                    <img src="images/contruction.webp" alt="" width="480" height="360" loading="lazy"
+                                        decoding="async">
+                                    <button class="yt__play" type="button"
+                                        aria-label="Play construction update video"><span><svg aria-hidden="true">
+                                                <use href="#i-play" />
+                                            </svg></span></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tabs__panel" id="gal-videos" role="tabpanel" aria-labelledby="tab-videos" hidden>
+                            <div class="slider slider--overlay" data-slider>
+                                <div class="slider__track" tabindex="0" aria-label="Videos">
+                                    <div class="slider__item yt" data-id="H5sDWR8PBto"><img
+                                            src="https://i.ytimg.com/vi/H5sDWR8PBto/hqdefault.jpg" alt="" width="480"
+                                            height="360" loading="lazy" decoding="async"><button class="yt__play"
+                                            type="button" aria-label="Play video 1"><span><svg aria-hidden="true">
+                                                    <use href="#i-play" />
+                                                </svg></span></button></div>
+                                    <div class="slider__item yt" data-id="w-jSmTveKRc"><img
+                                            src="https://i.ytimg.com/vi/w-jSmTveKRc/hqdefault.jpg" alt="" width="480"
+                                            height="360" loading="lazy" decoding="async"><button class="yt__play"
+                                            type="button" aria-label="Play video 2"><span><svg aria-hidden="true">
+                                                    <use href="#i-play" />
+                                                </svg></span></button></div>
+                                    <div class="slider__item yt" data-id="yiMgLFxHguM"><img
+                                            src="https://i.ytimg.com/vi/yiMgLFxHguM/hqdefault.jpg" alt="" width="480"
+                                            height="360" loading="lazy" decoding="async"><button class="yt__play"
+                                            type="button" aria-label="Play video 3"><span><svg aria-hidden="true">
+                                                    <use href="#i-play" />
+                                                </svg></span></button></div>
+                                    <div class="slider__item yt" data-id="jBSr6Wb-ydM"><img
+                                            src="https://i.ytimg.com/vi/jBSr6Wb-ydM/hqdefault.jpg" alt="" width="480"
+                                            height="360" loading="lazy" decoding="async"><button class="yt__play"
+                                            type="button" aria-label="Play video 4"><span><svg aria-hidden="true">
+                                                    <use href="#i-play" />
+                                                </svg></span></button></div>
+                                    <div class="slider__item yt" data-id="RJEOvyejlOU"><img
+                                            src="https://i.ytimg.com/vi/RJEOvyejlOU/hqdefault.jpg" alt="" width="480"
+                                            height="360" loading="lazy" decoding="async"><button class="yt__play"
+                                            type="button" aria-label="Play video 5"><span><svg aria-hidden="true">
+                                                    <use href="#i-play" />
+                                                </svg></span></button></div>
+                                </div>
+                                <div class="slider__nav"><button class="slider__btn" type="button" data-prev
+                                        aria-label="Previous"><svg aria-hidden="true">
+                                            <use href="#i-left" />
+                                        </svg></button><button class="slider__btn" type="button" data-next
+                                        aria-label="Next"><svg aria-hidden="true">
+                                            <use href="#i-right" />
+                                        </svg></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ============ FLOOR PLANS ============ -->
+        <section class="section section--sand section--lazy" id="floor">
+            <div class="container">
+                <div class="section__head reveal">
+                    <h2 class="section__title">Floor Plans</h2>
+                    <p class="section__lead">Tap any plan and share your details to receive the detailed floor plans.
+                    </p>
+                </div>
+                <div class="tabs" data-tabs>
+                    <div class="tabs__list" role="tablist" aria-label="Floor plans by project">
+                        <button class="tabs__btn" role="tab" type="button" id="tab-fp-olive" aria-controls="fp-olive"
+                            aria-selected="true">Dosti Olive</button>
+                        <button class="tabs__btn" role="tab" type="button" id="tab-fp-pine" aria-controls="fp-pine"
+                            aria-selected="false">Dosti Pine</button>
+                        <button class="tabs__btn" role="tab" type="button" id="tab-fp-maple" aria-controls="fp-maple"
+                            aria-selected="false">Dosti Maple</button>
+                        <button class="tabs__btn" role="tab" type="button" id="tab-fp-willow" aria-controls="fp-willow"
+                            aria-selected="false">Dosti Willow</button>
+                        <button class="tabs__btn" role="tab" type="button" id="tab-fp-master" aria-controls="fp-master"
+                            aria-selected="false">Master Plan</button>
+                    </div>
+
+                    <div class="tabs__panel" id="fp-olive" role="tabpanel" aria-labelledby="tab-fp-olive">
+                        <div class="slider slider--overlay" data-slider>
+                            <div class="slider__track" tabindex="0" aria-label="Dosti Olive floor plans">
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Olive"><img src="assets/img/gallery/floorplan/1.webp"
+                                        alt="Dosti Olive floor plan 1 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Olive"><img src="assets/img/gallery/floorplan/2.webp"
+                                        alt="Dosti Olive floor plan 2 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Olive"><img src="assets/img/gallery/floorplan/3.webp"
+                                        alt="Dosti Olive floor plan 3 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Olive"><img src="assets/img/gallery/floorplan/4.webp"
+                                        alt="Dosti Olive floor plan 4 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Olive"><img src="assets/img/gallery/floorplan/5.webp"
+                                        alt="Dosti Olive floor plan 5 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Olive"><img src="assets/img/gallery/floorplan/6.webp"
+                                        alt="Dosti Olive floor plan 6 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Olive"><img src="assets/img/gallery/floorplan/7.webp"
+                                        alt="Dosti Olive floor plan 7 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Olive"><img src="assets/img/gallery/floorplan/8.webp"
+                                        alt="Dosti Olive floor plan 8 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                            </div>
+                            <div class="slider__nav"><button class="slider__btn" type="button" data-prev
+                                    aria-label="Previous"><svg aria-hidden="true">
+                                        <use href="#i-left" />
+                                    </svg></button><button class="slider__btn" type="button" data-next
+                                    aria-label="Next"><svg aria-hidden="true">
+                                        <use href="#i-right" />
+                                    </svg></button></div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__panel" id="fp-pine" role="tabpanel" aria-labelledby="tab-fp-pine" hidden>
+                        <div class="slider slider--overlay" data-slider>
+                            <div class="slider__track" tabindex="0" aria-label="Dosti Pine floor plans">
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Pine"><img src="assets/img/gallery/floorplan/01.webp"
+                                        alt="Dosti Pine floor plan 1 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Pine"><img src="assets/img/gallery/floorplan/02.webp"
+                                        alt="Dosti Pine floor plan 2 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Pine"><img src="assets/img/gallery/floorplan/03.webp"
+                                        alt="Dosti Pine floor plan 3 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Pine"><img src="assets/img/gallery/floorplan/05.webp"
+                                        alt="Dosti Pine floor plan 4 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Pine"><img src="assets/img/gallery/floorplan/06.webp"
+                                        alt="Dosti Pine floor plan 5 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Pine"><img src="assets/img/gallery/floorplan/07.webp"
+                                        alt="Dosti Pine floor plan 6 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Pine"><img src="assets/img/gallery/floorplan/08.webp"
+                                        alt="Dosti Pine floor plan 7 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Pine"><img src="assets/img/gallery/floorplan/09.webp"
+                                        alt="Dosti Pine floor plan 8 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Pine"><img src="assets/img/gallery/floorplan/010.webp"
+                                        alt="Dosti Pine floor plan 9 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Pine"><img src="assets/img/gallery/floorplan/011.webp"
+                                        alt="Dosti Pine floor plan 10 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                            </div>
+                            <div class="slider__nav"><button class="slider__btn" type="button" data-prev
+                                    aria-label="Previous"><svg aria-hidden="true">
+                                        <use href="#i-left" />
+                                    </svg></button><button class="slider__btn" type="button" data-next
+                                    aria-label="Next"><svg aria-hidden="true">
+                                        <use href="#i-right" />
+                                    </svg></button></div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__panel" id="fp-maple" role="tabpanel" aria-labelledby="tab-fp-maple" hidden>
+                        <div class="slider slider--overlay" data-slider>
+                            <div class="slider__track" tabindex="0" aria-label="Dosti Maple floor plans">
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Maple"><img src="assets/img/gallery/floorplan/maple/1.webp"
+                                        alt="Dosti Maple floor plan 1 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Maple"><img src="assets/img/gallery/floorplan/maple/2.webp"
+                                        alt="Dosti Maple floor plan 2 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Maple"><img src="assets/img/gallery/floorplan/maple/3.webp"
+                                        alt="Dosti Maple floor plan 3 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Maple"><img src="assets/img/gallery/floorplan/maple/4.webp"
+                                        alt="Dosti Maple floor plan 4 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Maple"><img src="assets/img/gallery/floorplan/maple/5.webp"
+                                        alt="Dosti Maple floor plan 5 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Maple"><img src="assets/img/gallery/floorplan/maple/6.webp"
+                                        alt="Dosti Maple floor plan 6 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Maple"><img src="assets/img/gallery/floorplan/maple/7.webp"
+                                        alt="Dosti Maple floor plan 7 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Maple"><img src="assets/img/gallery/floorplan/maple/8.webp"
+                                        alt="Dosti Maple floor plan 8 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Maple"><img src="assets/img/gallery/floorplan/maple/9.webp"
+                                        alt="Dosti Maple floor plan 9 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                            </div>
+                            <div class="slider__nav"><button class="slider__btn" type="button" data-prev
+                                    aria-label="Previous"><svg aria-hidden="true">
+                                        <use href="#i-left" />
+                                    </svg></button><button class="slider__btn" type="button" data-next
+                                    aria-label="Next"><svg aria-hidden="true">
+                                        <use href="#i-right" />
+                                    </svg></button></div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__panel" id="fp-willow" role="tabpanel" aria-labelledby="tab-fp-willow" hidden>
+                        <div class="slider slider--overlay" data-slider>
+                            <div class="slider__track" tabindex="0" aria-label="Dosti Willow floor plans">
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Willow"><img src="assets/img/gallery/floorplan/willow/1.webp"
+                                        alt="Dosti Willow floor plan 1 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Willow"><img src="assets/img/gallery/floorplan/willow/2.webp"
+                                        alt="Dosti Willow floor plan 2 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Willow"><img src="assets/img/gallery/floorplan/willow/3.webp"
+                                        alt="Dosti Willow floor plan 3 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Willow"><img src="assets/img/gallery/floorplan/willow/4.webp"
+                                        alt="Dosti Willow floor plan 4 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Willow"><img src="assets/img/gallery/floorplan/willow/5.webp"
+                                        alt="Dosti Willow floor plan 5 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Willow"><img src="assets/img/gallery/floorplan/willow/6.webp"
+                                        alt="Dosti Willow floor plan 6 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Willow"><img src="assets/img/gallery/floorplan/willow/7.webp"
+                                        alt="Dosti Willow floor plan 7 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                                <button class="slider__item tile tile--locked" type="button"
+                                    data-enquire="Request Floor Plans"
+                                    data-enquire-sub="Share your details and our team will send you the floor plans"
+                                    data-project="Dosti Willow"><img src="assets/img/gallery/floorplan/willow/8.webp"
+                                        alt="Dosti Willow floor plan 8 (blurred preview)" width="640" height="384"
+                                        loading="lazy" decoding="async"><span class="tile__lock"><span
+                                            class="tile__zoombtn" aria-hidden="true"><svg>
+                                                <use href="#i-zoom" />
+                                            </svg></span><span class="visually-hidden">Request the floor
+                                            plans</span></span></button>
+                            </div>
+                            <div class="slider__nav"><button class="slider__btn" type="button" data-prev
+                                    aria-label="Previous"><svg aria-hidden="true">
+                                        <use href="#i-left" />
+                                    </svg></button><button class="slider__btn" type="button" data-next
+                                    aria-label="Next"><svg aria-hidden="true">
+                                        <use href="#i-right" />
+                                    </svg></button></div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__panel" id="fp-master" role="tabpanel" aria-labelledby="tab-fp-master" hidden>
+                        <div class="grid grid--2">
+                            <button class="tile tile--locked" type="button" data-enquire="Request Floor Plans"
+                                data-enquire-sub="Share your details and our team will send you the floor plans"><img
+                                    src="assets/img/gallery/floorplan/001.webp" alt="Master plan 1 (blurred preview)"
+                                    width="640" height="384" loading="lazy" decoding="async"><span
+                                    class="tile__lock"><span class="tile__zoombtn" aria-hidden="true"><svg>
+                                            <use href="#i-zoom" />
+                                        </svg></span><span class="visually-hidden">Request the floor
+                                        plans</span></span></button>
+                            <button class="tile tile--locked" type="button" data-enquire="Request Floor Plans"
+                                data-enquire-sub="Share your details and our team will send you the floor plans"><img
+                                    src="assets/img/gallery/floorplan/002.webp" alt="Master plan 2 (blurred preview)"
+                                    width="640" height="384" loading="lazy" decoding="async"><span
+                                    class="tile__lock"><span class="tile__zoombtn" aria-hidden="true"><svg>
+                                            <use href="#i-zoom" />
+                                        </svg></span><span class="visually-hidden">Request the floor
+                                        plans</span></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ TIE-UPS ============ -->
+        <div>
+            <section class="section section--ivory section--lazy" id="tieups">
+                <div class="container">
+                    <div class="section__head reveal">
+                        <h2 class="section__title">Tie-ups</h2>
+                        <p class="section__lead">Partners who bring learning, sport and culture right into the township.
+                        </p>
+                    </div>
+                    <div class="slider slider--1 slider--overlay" data-slider>
+                        <div class="slider__track" tabindex="0" aria-label="Partners">
+                            <article class="slider__item partner">
+                                <div class="partner__media partner__media--portrait"><img
+                                        src="assets/img/sureshnew.webp" alt="Suresh Wadkar" width="400" height="550"
+                                        loading="lazy" decoding="async"></div>
+                                <div>
+                                    <div class="partner__logo"><img src="assets/img/tieups/sureshlogo.webp"
+                                            alt="Ajivasan Music Academy" width="185" height="121" loading="lazy"></div>
+                                    <h3 class="partner__name">Suresh Wadkar’s Ajivasan Music Academy</h3>
+                                    <p class="partner__text">Ajivasan has been spreading the message of Hindustani
+                                        Classical Music to thousands of students for 86 years. It has been Ajivasan’s
+                                        continuous endeavour to educate and spread Hindustani Music, Culture &amp; Art
+                                        across society. The students have had the opportunity to perform with the master
+                                        himself on several occasions. Ajivasan offers varied Music Appreciation Courses
+                                        for children, adults and youth, with practical and scientific methods that widen
+                                        an individual’s ability to use their potential to 100%. These classes will be
+                                        conducted in Dosti West County for Indian and Western vocal and instrument
+                                        training.</p>
+                                    <p class="partner__text note">Residents will be able to avail of this facility on
+                                        payment of the applicable fee once the classes commence.</p>
+                                </div>
+                            </article>
+                            <article class="slider__item partner">
+                                <div class="partner__media"><img src="assets/img/tieups/euroschool.webp"
+                                        alt="EuroSchool campus rendering" width="700" height="472" loading="lazy"
+                                        decoding="async"></div>
+                                <div>
+                                    <div class="partner__logo"><img src="assets/img/tieups/eurologo.webp"
+                                            alt="EuroSchool" width="400" height="289" loading="lazy"></div>
+                                    <h3 class="partner__name">EuroSchool</h3>
+                                    <p class="partner__text">EuroSchool constantly endeavours to nurture aspirations and
+                                        curiosity in their students’ journey of self-discovery. They encourage students
+                                        to explore several possibilities, help them discover their passions and hone the
+                                        same. It is this common belief that inspires them to collaborate with
+                                        like-minded partners to bring in world-class schooling. They blend Balanced
+                                        Schooling pedagogy with the Learn–Reinforce–Practice–Apply–Experience
+                                        methodology, paving the way for students to excel in academics while
+                                        co-curricular activities shape their creative, sporting and musical aspirations.
+                                    </p>
+                                    <p class="partner__text">The student-centric blended learning practices include:
+                                        National Education Policy (NEP) 2020 powered curriculum, an industry-best
+                                        digital learning ecosystem powered by ARGUS, highly trained teachers, and
+                                        EuroBridge, a preparatory course for toddlers for the new academic year.
+                                        EuroSchool is also India’s 1st chain of schools to receive the ‘safe school’
+                                        certification from a global audit firm.</p>
+                                </div>
+                            </article>
+                            <article class="slider__item partner">
+                                <div class="partner__media"><img src="assets/img/badminton-ame.webp"
+                                        alt="Badminton court" width="800" height="480" loading="lazy" decoding="async">
+                                </div>
+                                <div>
+                                    <div class="partner__logo"><img src="assets/img/tieups/badmitonpro.webp"
+                                            alt="Badminton Pros" width="400" height="98" loading="lazy"></div>
+                                    <h3 class="partner__name">Badminton Pros</h3>
+                                    <p class="partner__text">Badminton Pros, powered by the legendary Saina Nehwal, is a
+                                        premier coaching academy dedicated to nurturing the next generation of badminton
+                                        champions. Led by Head Coach Vijay Lancy, a renowned name in the badminton
+                                        coaching fraternity, the academy boasts a team of experienced mentors, including
+                                        Commonwealth Gold Medallist Parupalli Kashyap and RMV Gurusai Dutt. With a focus
+                                        on holistic development and personalised attention, Badminton Pros provides a
+                                        comprehensive training programme that helps players improve their technique,
+                                        strategy and mental toughness. By leveraging the expertise of India’s badminton
+                                        icons, Badminton Pros aims to revolutionise the sport and produce world-class
+                                        players who can make India proud on the global stage.</p>
+                                </div>
+                            </article>
+                            <article class="slider__item partner">
+                                <div class="partner__media"><img src="assets/img/club-ame.webp"
+                                        alt="Ileseum Club facilities" width="800" height="480" loading="lazy"
+                                        decoding="async"></div>
+                                <div>
+                                    <div class="partner__logo"><img src="assets/img/tieups/ilesumclub.webp"
+                                            alt="Ileseum Club" width="400" height="125" loading="lazy"></div>
+                                    <h3 class="partner__name">Ileseum Club</h3>
+                                    <p class="partner__text">Ileseum Clubs are a chain of premier sports and leisure
+                                        facilities dedicated to providing exceptional amenities and services to their
+                                        members. With a focus on inclusivity, accessibility and excellence, Ileseum
+                                        Clubs offer a unique blend of sports, fitness and social experiences. Their
+                                        state-of-the-art facilities, expert staff and carefully curated programmes
+                                        create a welcoming environment for individuals of all ages and skill levels,
+                                        fostering a community that celebrates active living, wellness and connection.
+                                        With an impressive portfolio of 18 brands, Ileseum Clubs have established
+                                        themselves as a leader in the sports and leisure industry. Ileseum currently
+                                        operates 7 locations across India, with several more in development. From
+                                        professional training to recreational activities, Ileseum Clubs cater to a
+                                        diverse range of interests and needs.</p>
+                                </div>
+                            </article>
+                            <article class="slider__item partner">
+                                <div class="partner__media"><img src="assets/img/saurav.webp" alt="Saurav Ghosal"
+                                        width="800" height="480" loading="lazy" decoding="async"></div>
+                                <div>
+                                    <div class="partner__logo"><img src="assets/img/tieups/squashlogo.webp"
+                                            alt="Saurav Ghosal Squash" width="115" height="361" loading="lazy"
+                                            style="max-height:80px"></div>
+                                    <h3 class="partner__name">Saurav Ghosal Squash (SGS)</h3>
+                                    <p class="partner__text">Saurav Ghosal Squash (SGS) is a premier training
+                                        destination founded by India’s squash legend, Saurav Ghosal, in partnership with
+                                        Hotfut. Designed to inspire and develop athletes at all levels, SGS offers
+                                        world-class coaching programmes that emphasise technical precision, strategic
+                                        gameplay, physical conditioning and mental resilience. The academy is committed
+                                        to a holistic approach, nurturing not just champions on the court but
+                                        well-rounded individuals off it. With state-of-the-art facilities and a
+                                        passionate team of experienced coaches, SGS is redefining the future of squash
+                                        and making it accessible and engaging for everyone.</p>
+                                    <p class="partner__text note">Residents will be able to avail of this facility on
+                                        payment of the applicable fee.</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="slider__nav"><button class="slider__btn" type="button" data-prev
+                                aria-label="Previous partner"><svg aria-hidden="true">
+                                    <use href="#i-left" />
+                                </svg></button><button class="slider__btn" type="button" data-next
+                                aria-label="Next partner"><svg aria-hidden="true">
+                                    <use href="#i-right" />
+                                </svg></button></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ============ ABOUT DOSTI ============ -->
+        <section class="section section--olive section--lazy" id="aboutus">
+            <div class="container">
+                <div class="section__head reveal">
+                    <p class="eyebrow">About Dosti Realty</p>
+                    <h2 class="section__title">Discover your friends for life</h2>
+                    <p class="section__lead">For over four decades, Dosti Realty has stood for trust and excellence in
+                        real estate, guided by one ethos: ‘Friends for Life’. From thoughtful design and timely delivery
+                        to post-possession support, we build communities where families thrive across the Mumbai
+                        Metropolitan Region and Pune.</p>
+                </div>
+
+                <div class="stats reveal">
+                    <div class="stat">
+                        <div class="stat__num" data-count="40" data-suffix="+">0</div>
+                        <div class="stat__label">Years of Expertise</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__num" data-count="63">0</div>
+                        <div class="stat__label">Projects Delivered</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__num" data-count="22450" data-suffix="+">0</div>
+                        <div class="stat__label">Happy Families</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__num">13.98<small class="stat__suffix">mn</small></div>
+                        <div class="stat__label">Sq. Ft. Developed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__num">13.62<small class="stat__suffix">mn</small></div>
+                        <div class="stat__label">Sq. Ft. Under Development</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__num" data-count="40" data-suffix="+">0</div>
+                        <div class="stat__label">Industry Awards</div>
+                    </div>
+                </div>
+
+                <div class="grid grid--4 reveal">
+                    <article class="card card--label">
+                        <div class="card__media"><img src="assets/img/gallery/about/2.webp" alt="" width="800"
+                                height="480" loading="lazy" decoding="async"></div>
+                        <div class="card__body">
+                            <h3 class="card__title">Transforming Wadala–Sewri–Parel</h3>
+                        </div>
+                    </article>
+                    <article class="card card--label">
+                        <div class="card__media"><img src="assets/img/gallery/about/1.webp" alt="" width="800"
+                                height="480" loading="lazy" decoding="async"></div>
+                        <div class="card__body">
+                            <h3 class="card__title">Transforming Shil–Thane–Kalyan</h3>
+                        </div>
+                    </article>
+                    <article class="card card--label">
+                        <div class="card__media"><img src="assets/img/gallery/about/3.webp" alt="" width="800"
+                                height="480" loading="lazy" decoding="async"></div>
+                        <div class="card__body">
+                            <h3 class="card__title">Transforming Pune</h3>
+                        </div>
+                    </article>
+                    <article class="card card--label">
+                        <div class="card__media"><img src="assets/img/gallery/about/4.webp" alt="" width="800"
+                                height="480" loading="lazy" decoding="async"></div>
+                        <div class="card__body">
+                            <h3 class="card__title">Transforming Thane</h3>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ============ EXPERTS ============ -->
+        <section class="section section--sand section--lazy" id="expert">
+            <div class="container">
+                <div class="section__head reveal">
+                    <h2 class="section__title">The Experts</h2>
+                </div>
+                <div class="grid grid--4 reveal">
+                    <div class="expert"><img src="assets/img/experts/1.webp" alt="Archetype Consultants logo"
+                            width="200" height="200" loading="lazy">
+                        <h3>Design Architect</h3>
+                        <p>Archetype Consultants (I) Pvt. Ltd.</p>
+                    </div>
+                    <div class="expert"><img src="assets/img/experts/2.webp" alt="JW Consultants logo" width="200"
+                            height="200" loading="lazy">
+                        <h3>Structural Consultant</h3>
+                        <p>JW Consultants LLP</p>
+                    </div>
+                    <div class="expert"><img src="assets/img/experts/3.webp" alt="TAIB Landscape logo" width="200"
+                            height="200" loading="lazy">
+                        <h3>Landscape Consultant</h3>
+                        <p>TAIB Landscape Pvt. Ltd., Singapore</p>
+                    </div>
+                    <div class="expert"><img src="assets/img/experts/4.webp" alt="Engineering Creations logo"
+                            width="200" height="200" loading="lazy">
+                        <h3>MEP Consultant</h3>
+                        <p>Engineering Creations Public Health Consultancy Pvt. Ltd.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CONTACT ============ -->
+        <section class="section contact section--lazy" id="con" data-bg>
+            <div class="container">
+                <div class="contact__inner">
+                    <div class="form-card form-card--dark reveal">
+                        <img class="contact__logo" src="assets/img/logo-dwc-white.webp" alt="Dosti West County"
+                            width="720" height="174" loading="lazy">
+                        <h2 class="form-card__title">Get in touch</h2>
+                        <p class="form-card__sub">Share your details below and we will get in touch</p>
+                        <form id="contact-form" class="form" action="thank-you.php" method="POST" data-lead novalidate>
+                            <input type="hidden" name="source" value="Price Popup">
+                            <input type="hidden" name="enqproject" value="">
+                            <div class="field">
+                                <label class="visually-hidden" for="ct-name">Name</label>
+                                <input class="input" id="ct-name" type="text" name="fname" placeholder="Name*"
+                                    autocomplete="name" required pattern="[A-Za-z][A-Za-z ]*" maxlength="100">
+                                <span class="field__error">Please enter your name (letters only)</span>
+                            </div>
+                            <div class="field">
+                                <div class="field__row">
+                                    <input class="input input--cc" type="text" value="+91" name="cc" readonly
+                                        aria-label="Country code">
+                                    <div>
+                                        <label class="visually-hidden" for="ct-mobile">Mobile number</label>
+                                        <input class="input" id="ct-mobile" type="tel" name="mobile"
+                                            placeholder="Mobile*" inputmode="numeric" autocomplete="tel-national"
+                                            required pattern="[6-9][0-9]{9}" maxlength="10">
+                                    </div>
+                                </div>
+                                <span class="field__error">Enter a valid 10-digit mobile number</span>
+                            </div>
+                            <div class="field">
+                                <label class="visually-hidden" for="ct-email">Email</label>
+                                <input class="input" id="ct-email" type="email" name="email" placeholder="Email"
+                                    autocomplete="email">
+                                <span class="field__error">Please enter a valid email address</span>
+                            </div>
+                            <label class="consent">
+                                <input type="checkbox" name="whatsappin" value="Check" checked>
+                                <span>I authorise Dosti Realty &amp; its representatives to contact me with updates and
+                                    notifications via Email/SMS/WhatsApp/Call. This will override DND/NDNC.</span>
+                            </label>
+                            <button class="btn btn--gold btn--block" type="submit">Submit <svg aria-hidden="true">
+                                    <use href="#i-right" />
+                                </svg></button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="address reveal">
+                    <div class="address__item">
+                        <svg aria-hidden="true">
+                            <use href="#i-pin" />
+                        </svg>
+                        <p>Dosti West County, Dosti West County Road, near the upcoming Balkum Naka Metro Station, Thane
+                            West – 400608</p>
+                    </div>
+                    <div class="address__item">
+                        <svg aria-hidden="true">
+                            <use href="#i-phone" />
+                        </svg>
+                        <a href="tel:+919004552206">+919004552206</a>
+                    </div>
+                </div>
+
+                <div class="rera reveal">
+                    <ul class="rera__grid" aria-label="MahaRERA QR codes">
+                        <li class="rera__item"><img src="assets/img/qr/nest-phase-1.webp"
+                                alt="QR code – Dosti Nest Phase 1" width="240" height="240" loading="lazy">Dosti West
+                            County – Dosti Nest – Phase 1</li>
+                        <li class="rera__item"><img src="assets/img/qr/nest-phase-2.webp"
+                                alt="QR code – Dosti Nest Phase 2" width="240" height="240" loading="lazy">Dosti West
+                            County – Dosti Nest – Phase 2</li>
+                        <li class="rera__item"><img src="assets/img/qr/nest-phase-3.webp"
+                                alt="QR code – Dosti Nest Phase 3" width="240" height="240" loading="lazy">Dosti West
+                            County – Dosti Nest – Phase 3</li>
+                        <li class="rera__item"><img src="assets/img/qr/nest-phase-4.webp"
+                                alt="QR code – Dosti Nest Phase 4" width="240" height="240" loading="lazy">Dosti West
+                            County – Dosti Nest – Phase 4</li>
+                        <li class="rera__item"><img src="assets/img/qr/oak.webp" alt="QR code – Dosti Oak" width="240"
+                                height="240" loading="lazy">Dosti West County – Dosti Oak</li>
+                        <li class="rera__item"><img src="assets/img/qr/tulip.webp" alt="QR code – Dosti Tulip"
+                                width="240" height="240" loading="lazy">Dosti West County – Dosti Tulip</li>
+                        <li class="rera__item"><img src="assets/img/qr/pine.webp" alt="QR code – Dosti Pine" width="240"
+                                height="240" loading="lazy">Dosti West County – Phase 4 – Dosti Pine</li>
+                        <li class="rera__item"><img src="assets/img/qr/cedar.webp" alt="QR code – Dosti Cedar"
+                                width="240" height="240" loading="lazy">Dosti West County – Phase 2 – Dosti Cedar</li>
+                        <li class="rera__item"><img src="assets/img/qr/westwood.webp" alt="QR code – Dosti Westwood"
+                                width="240" height="240" loading="lazy">Dosti West County – Phase 3 – Dosti Westwood
+                        </li>
+                        <li class="rera__item"><img src="assets/img/qr/maple.webp" alt="QR code – Dosti Maple"
+                                width="240" height="240" loading="lazy">Dosti West County – Phase 6 – Dosti Maple</li>
+                        <li class="rera__item"><img src="assets/img/qr/olive.webp" alt="QR code – Dosti Olive"
+                                width="240" height="240" loading="lazy">Dosti West County – Phase 6 – Dosti Olive</li>
+                    </ul>
+                    <p class="rera__text">MahaRERA registrations: Dosti Willow (Phase 7) P51700056278 &middot; Dosti
+                        Maple (Phase 6) P51700054424 &middot; Dosti Olive Wing B (Phase 5) P51700054037 &middot; Dosti
+                        Pine (Phase 4) P51700025834 &middot; Dosti Westwood (Phase 3) P51700015501 &middot; Dosti Tulip
+                        P51700032666 &middot; Dosti Nest Phases 1&ndash;4 P51700033640, P51700033663, P51700049724,
+                        P51700050253. Details at <a href="https://maharera.maharashtra.gov.in/" target="_blank"
+                            rel="noopener">maharera.maharashtra.gov.in</a>. Sale/lease of premises is subject to the
+                        terms of the Agreement for Sale/Lease.</p>
+                    <div class="footer-links">
+                        <a href="privacy-policy.php">Privacy Policy</a>
+                        <button type="button" data-open-dialog="disclaimer">Disclaimer</button>
+                        <button type="button" data-enquire="Request Floor Plans"
+                            data-enquire-sub="Share your details and our team will send you the floor plans">Request
+                            Floor Plans</button>
+                    </div>
+                    <p class="copy">Copyright ©
+                        2026 Dosti Realty. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Disclaimer: Artist&rsquo;s impressions and stock images are for representation only. Furniture, fittings
+                and finishes shown in the show flat are for display and do not form part of the standard offering; flats
+                are sold unfurnished with amenities as specified in the Agreement for Sale. Use of Dosti Club County
+                facilities is subject to admission fees, charges and terms set by the Promoters. All sales are governed
+                by the Agreement for Sale.</p>
+
+
+            <p>Information collected on this website is owned solely by Dosti Realty and is never shared, sold or rented
+                to third parties. <strong>All rights reserved by Dosti Realty.</strong></p>
+        </div>
+    </footer>
+
+    <!-- Floating CTAs -->
+    <div class="float">
+        <button class="btn btn--gold float__enquire" type="button" data-enquire="Enquire Now"
+            data-enquire-sub="Please enter your details to know more"><svg aria-hidden="true">
+                <use href="#i-mail" />
+            </svg> Enquire Now</button>
+        <!-- <a class="float__call" href="tel:+919004552206" aria-label="Call us">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                    d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z" />
+            </svg>
+        </a>-->
+    </div>
+    <div class="cta-bar">
+        <a href="tel:+919004552206"><svg aria-hidden="true">
+                <use href="#i-phone" />
+            </svg> Call Now</a>
+        <button class="is-primary" type="button" data-enquire="Enquire Now"
+            data-enquire-sub="Please enter your details to know more"><svg aria-hidden="true">
+                <use href="#i-mail" />
+            </svg> Enquire Now</button>
+    </div>
+
+    <!-- Enquiry dialog -->
+    <dialog id="enquiry" class="dialog" aria-labelledby="enquiry-title">
+        <div class="dialog__card">
+            <button class="dialog__close" type="button" data-close aria-label="Close"><svg aria-hidden="true">
+                    <use href="#i-close" />
+                </svg></button>
+            <h2 class="dialog__title" id="enquiry-title">Enquire Now</h2>
+            <p class="dialog__sub" id="enquiry-sub">Please enter your details to know more</p>
+            <form id="main-form" class="form" action="thank-you.php" method="POST" data-lead novalidate>
+                <input type="hidden" id="enquiry-source" name="source" value="Enquire Now">
+                <input type="hidden" id="enquiry-project" name="dtlproject" value="">
+                <div class="field">
+                    <label class="visually-hidden" for="eq-name">Name</label>
+                    <input class="input" id="eq-name" type="text" name="fname" placeholder="Name*" autocomplete="name"
+                        required pattern="[A-Za-z][A-Za-z ]*" maxlength="100">
+                    <span class="field__error">Please enter your name (letters only)</span>
+                </div>
+                <div class="field">
+                    <div class="field__row">
+                        <input class="input input--cc" type="text" value="+91" name="cc" readonly
+                            aria-label="Country code">
+                        <div>
+                            <label class="visually-hidden" for="eq-mobile">Mobile number</label>
+                            <input class="input" id="eq-mobile" type="tel" name="mobile" placeholder="Mobile*"
+                                inputmode="numeric" autocomplete="tel-national" required pattern="[6-9][0-9]{9}"
+                                maxlength="10">
+                        </div>
+                    </div>
+                    <span class="field__error">Enter a valid 10-digit mobile number</span>
+                </div>
+                <div class="field">
+                    <label class="visually-hidden" for="eq-email">Email</label>
+                    <input class="input" id="eq-email" type="email" name="email" placeholder="Email"
+                        autocomplete="email">
+                    <span class="field__error">Please enter a valid email address</span>
+                </div>
+                <label class="consent">
+                    <input type="checkbox" name="whatsappin" value="Check" checked>
+                    <span>I authorise Dosti Realty &amp; its representatives to contact me with updates and
+                        notifications via Email/SMS/WhatsApp/Call. This will override DND/NDNC.</span>
+                </label>
+                <button class="btn btn--gold btn--block" type="submit">Submit <svg aria-hidden="true">
+                        <use href="#i-right" />
+                    </svg></button>
+            </form>
+        </div>
+    </dialog>
+
+    <!-- Disclaimer dialog -->
+    <dialog id="disclaimer" class="dialog" aria-labelledby="disclaimer-title">
+        <div class="dialog__card">
+            <button class="dialog__close" type="button" data-close aria-label="Close"><svg aria-hidden="true">
+                    <use href="#i-close" />
+                </svg></button>
+            <h2 class="dialog__title" id="disclaimer-title">Disclaimer</h2>
+            <p class="dialog__text" style="margin-top:14px">Disclaimer: By clicking the 'Send Enquiry' button you are
+                explicitly soliciting a call from Dosti Realty Limited and/or its authorized representatives on your
+                mobile number as provided, in order to assist you with information or your requirements. By providing
+                your email address, you consent to receive communication regarding Dosti Realty products, services, and
+                offers.
+                <br>
+
+                Your access to and use of this Website (“Site”) is subject to applicable laws and the following terms
+                and conditions. By accessing this Site, you confirm that you have read, understood, and agreed to these
+                terms without limitation. Any prior agreements between you and Dosti Realty Ltd. are superseded. If you
+                do not agree with these terms, you are advised not to use the Site.
+                <br>
+                This material does not constitute an offer or contract of any nature between the Promoters/Developers
+                and the recipient. All transactions shall be governed by the Agreement for Sale executed between the
+                parties. As this content was prepared prior to the implementation of the RERA Act, 2016, it may not
+                fully comply with current RERA requirements. Please verify all details with our sales representatives.
+                This material shall not be construed as an advertisement under RERA.
+            </p>
+
+        </div>
+    </dialog>
+
+    <!-- Lightbox -->
+    <dialog id="lightbox" class="lightbox" aria-label="Image viewer">
+        <div class="lightbox__stage"><img alt=""></div>
+        <button class="lightbox__btn lightbox__prev" type="button" aria-label="Previous image"><svg aria-hidden="true">
+                <use href="#i-left" />
+            </svg></button>
+        <button class="lightbox__btn lightbox__next" type="button" aria-label="Next image"><svg aria-hidden="true">
+                <use href="#i-right" />
+            </svg></button>
+        <button class="lightbox__close" type="button" data-close aria-label="Close"><svg aria-hidden="true">
+                <use href="#i-close" />
+            </svg></button>
+        <p class="lightbox__caption"></p>
+    </dialog>
+
+    <!-- Brand loader: Dosti logo, shown while a form is being submitted / the next page loads -->
+    <dialog id="dosti-loader" class="dosti-loader" aria-label="Please wait" aria-live="polite">
+        <div class="dosti-loader__box">
+            <img class="dosti-loader__logo" src="assets/img/logo-dosti-color.webp" alt="Dosti Realty – Friends for Life"
+                width="600" height="250">
+            <span class="dosti-loader__bar" aria-hidden="true"></span>
+            <p class="dosti-loader__text">Please wait&hellip;</p>
+        </div>
+    </dialog>
+
+    <script src="js/vai2.js?v=8"></script>
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+<!-- <!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Page Not Found</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    html {
+      color: #888;
+      display: table;
+      font-family: sans-serif;
+      height: 100%;
+      text-align: center;
+      width: 100%;
+    }
+
+    body {
+      display: table-cell;
+      vertical-align: middle;
+      margin: 2em auto;
+    }
+
+    h1 {
+      color: #555;
+      font-size: 2em;
+      font-weight: 400;
+    }
+
+    p {
+      margin: 0 auto;
+      width: 280px;
+    }
+
+    @media only screen and (max-width: 280px) {
+
+      body,
+      p {
+        width: 95%;
+      }
+
+      h1 {
+        font-size: 1.5em;
+        margin: 0 0 0.3em;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Page Not Found</h1>
+  <p>Sorry, but the page you were trying to view does not exist.</p>
+</body>
+
+</html> -->
+<!-- IE needs 512+ bytes: https://docs.microsoft.com/archive/blogs/ieinternals/friendly-http-error-pages -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Page Not Found</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Arvo'>
+  <!-- <link href="css/style.css?v=3" rel="stylesheet"> -->
+  <style>
+    html,
+    .page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+}
+
+.page_404  img{ width:100%;}
+
+.four_zero_four_bg{
+ 
+ background-image: url(https://tataamantra.in/tem/404/page_not_found.gif);
+    height: 400px;
+    background-position: center;
+ }
+ 
+ 
+ .four_zero_four_bg h1{
+ font-size:80px;
+ }
+ 
+  .four_zero_four_bg h3{
+       font-size:80px;
+       }
+       
+       .link_404{color: #fff!important;padding: 10px 20px;background: #39ac31;margin: 20px 0;display: inline-block;}
+  .contant_box_404{ margin-top:-50px;}
+
+  .not-found{
+    font-size: 50px;
+  }
+
+  .pnf{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .buttons{
+    margin: 30px 0;
+  }
+
+
+  .ttw_button_container {
+    background: #27d9b4;
+    cursor: pointer;
+    width: 198px;
+    height: 50px;
+    background: #000000 ;
+    color: #ffffff !important;
+    margin: 30px auto;
+}
+
+.ttw_button_container:hover {
+    background: #413f3f;
+   
+}
+a.ttw_button{  
+    color: #fff !important;
+    border: 1px solid white;
+    padding: 6px 52px;
+    margin: 4px 0 0 0;
+    font-weight: bold;      
+    font-size: 19px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.ttw_button:hover{  
+    background: #413f3f;
+
+}
+
+  </style>
+</head>
+<body>
+
+  <section class="page_404" id="overview">
+  <div class="container">
+    <h1 class="text-center not-found">404</h1>
+    <p class="pnf">Page Not Found</p>
+    <div class="row"> 
+    <div class="col-sm-12 ">
+    <div class="col-sm-10 col-sm-offset-1  text-center">
+    <div class="four_zero_four_bg">
+    
+    
+    </div>
+    
+    <div class="contant_box_404">
+    <h3 class="h2">
+    Look like you're lost
+    </h3>
+    
+    <p>the page you are looking for not avaible!</p>
+
+
+    <!-- <div class="ttw_button_container"><a href="index.php" class="ttw_button">Go Back</a></div> -->
+
+    <!-- <div class="button"><a  class="read-more md-trigger" id="md-trigger"></a></div> -->
+  </div>
+    </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function drawVisor() {
+  const canvas = document.getElementById('visor');
+  const ctx = canvas.getContext('2d');
+  
+  ctx.beginPath();
+  ctx.moveTo(5, 45);
+  ctx.bezierCurveTo(15, 64, 45, 64, 55, 45);
+  
+  ctx.lineTo(55, 20);
+  ctx.bezierCurveTo(55, 15, 50, 10, 45, 10);
+  
+  ctx.lineTo(15, 10);
+  
+  ctx.bezierCurveTo(15, 10, 5, 10, 5, 20);
+  ctx.lineTo(5, 45);
+  
+  ctx.fillStyle = '#2f3640';
+  ctx.strokeStyle = '#f5f6fa';
+  ctx.fill();
+  ctx.stroke();
+}
+
+const cordCanvas = document.getElementById('cord');
+const ctx = cordCanvas.getContext('2d');
+
+let y1 = 160;
+let y2 = 100;
+let y3 = 100;
+
+let y1Forward = true;
+let y2Forward = false;
+let y3Forward = true;
+
+function animate() {
+  requestAnimationFrame(animate);
+  ctx.clearRect(0, 0, innerWidth, innerHeight);
+  
+  ctx.beginPath();
+  ctx.moveTo(130, 170);
+  ctx.bezierCurveTo(250, y1, 345, y2, 400, y3);
+  
+  ctx.strokeStyle = 'white';
+  ctx.lineWidth = 8;
+  ctx.stroke();
+ 
+  
+  if (y1 === 100) {
+    y1Forward = true;
+  }
+  
+  if (y1 === 300) {
+    y1Forward = false;
+  }
+  
+  if (y2 === 100) {
+    y2Forward = true;
+  }
+  
+  if (y2 === 310) {
+    y2Forward = false;
+  }
+  
+  if (y3 === 100) {
+    y3Forward = true;
+  }
+  
+  if (y3 === 317) {
+    y3Forward = false;
+  }
+  
+  y1Forward ? y1 += 1 : y1 -= 1;
+  y2Forward ? y2 += 1 : y2 -= 1;
+  y3Forward ? y3 += 1 : y3 -= 1;
+}
+
+drawVisor();
+animate();
+</script>
+<!-- <script>
+  setTimeout(() => {
+    window.location.href = '/'; 
+  }, 10000); 
+</script> -->
+</body>
+</html>

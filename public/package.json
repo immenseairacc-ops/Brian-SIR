@@ -1,0 +1,16 @@
+{
+  "name": "credence-first-realtors",
+  "version": "1.0.0",
+  "description": "Credence First Realtors Luxury Real Estate Advisory Portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "real-estate",
+    "mumbai",
+    "luxury-residences"
+  ],
+  "author": "Credence First Realtors",
+  "license": "ISC"
+}

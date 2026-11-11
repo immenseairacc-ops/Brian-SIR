@@ -670,14 +670,24 @@
 
     try {
       await Promise.allSettled([emailPromise, netlifyPromise, apiPromise]);
-      statusEl.textContent = '✓ Details sent to advisory team. Opening WhatsApp desk…';
-      setTimeout(() => {
-        window.open(waFallback, '_blank', 'noopener');
-      }, 1000);
+      statusEl.textContent = '✓ Request registered and sent to advisory desk.';
+      showThankYouModal({
+        name: payload.fullName,
+        mobile: '+91 ' + mobile,
+        project: payload.project || 'Mumbai & Thane Residences',
+        bhk: payload.configuration || 'Luxury Residence',
+        waUrl: waFallback
+      });
       return true;
     } catch (err) {
-      statusEl.textContent = 'Opening WhatsApp directly…';
-      window.open(waFallback, '_blank', 'noopener');
+      statusEl.textContent = 'Request registered.';
+      showThankYouModal({
+        name: payload.fullName,
+        mobile: '+91 ' + mobile,
+        project: payload.project || 'Mumbai & Thane Residences',
+        bhk: payload.configuration || 'Luxury Residence',
+        waUrl: waFallback
+      });
       return true;
     } finally { btn.disabled = false; }
   }
@@ -743,6 +753,50 @@
     Object.assign(fd, { project: current.name, inquiryType: 'Brochure & Cost Sheet', reraId: current.rera.startsWith('P') ? current.rera : '' });
     const ok = await submitLead(fd, $('#drawerStatus'), f.querySelector('button[type=submit]'));
     if (ok) f.reset();
+  });
+
+  
+  /* ---------- Thank You Modal Controller ---------- */
+  const tyModal = $('#thankYouModal');
+  const tyClientName = $('#tyClientName');
+  const tyProject = $('#tyProject');
+  const tyBhkBudget = $('#tyBhkBudget');
+  const tyMobile = $('#tyMobile');
+  const tyWaBtn = $('#tyWaBtn');
+  const tyCloseBtnTop = $('#tyCloseBtnTop');
+  const tyCloseBtnBottom = $('#tyCloseBtnBottom');
+
+  function showThankYouModal(info) {
+    if (tyClientName) tyClientName.textContent = info.name || 'Client';
+    if (tyProject) tyProject.textContent = info.project || 'General Consultation';
+    if (tyBhkBudget) tyBhkBudget.textContent = info.bhk || 'Not specified';
+    if (tyMobile) tyMobile.textContent = info.mobile || '';
+    if (tyWaBtn) tyWaBtn.href = info.waUrl || `https://wa.me/${WA_NUMBER}`;
+
+    if (tyModal) {
+      tyModal.classList.add('active');
+      tyModal.setAttribute('aria-hidden', 'false');
+    }
+    if (lenis) lenis.stop(); else document.body.style.overflow = 'hidden';
+  }
+
+  function hideThankYouModal() {
+    if (tyModal) {
+      tyModal.classList.remove('active');
+      tyModal.setAttribute('aria-hidden', 'true');
+    }
+    if (lenis) lenis.start(); else document.body.style.overflow = '';
+  }
+
+  if (tyCloseBtnTop) tyCloseBtnTop.addEventListener('click', hideThankYouModal);
+  if (tyCloseBtnBottom) tyCloseBtnBottom.addEventListener('click', hideThankYouModal);
+  if (tyModal) {
+    tyModal.addEventListener('click', (e) => {
+      if (e.target === tyModal) hideThankYouModal();
+    });
+  }
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && tyModal && tyModal.classList.contains('active')) hideThankYouModal();
   });
 
   /* ---------- Init ---------- */

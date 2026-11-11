@@ -1,107 +1,215 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Us | OPPO Mumbai</title>
-  <meta name="description" content="Get in touch with OPPO Mumbai for smartphone enquiries, store visits, exchange offers, corporate bulk orders, and authorized service bookings." />
-  <link rel="icon" href="assets/oppo-logo.svg" type="image/svg+xml" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us — Credence First Realtors | Mumbai Real Estate Advisory</title><link rel="icon" href="assets/logos/credence-first-emblem.png" type="image/png" />
+  <meta name="description" content="Get in touch with Credence First Realtors for curated luxury residences and private site visits across Lodha, Godrej Properties, Rustomjee, DLF, and Puraniks." />
+  <meta name="theme-color" content="#F6F5F2" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'] },
+          colors: { canvas: '#F6F5F2', stone: '#ECEAE4', ink: '#111111', muted: '#6E6D68' }
+        }
+      }
+    };
+  </script>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <header class="header scrolled" id="header" data-solid>
-    <div class="container header__inner">
-      <a href="index.html" class="brand" aria-label="OPPO Mumbai home"><img src="assets/oppo-logo.svg" alt="OPPO Mumbai" width="160" height="28" /></a>
-      <nav class="nav" id="nav" aria-label="Main">
-        <a href="index.html#smartphones">Smartphones</a>
-        <a href="index.html#reno-spotlight">Reno16 Series</a>
-        <a href="index.html#features">Hasselblad &amp; AI</a>
-        <a href="index.html#iot">Tablets &amp; Audio</a>
-        <a href="index.html#stores">Mumbai Stores</a>
-        <a href="contact.html" class="btn btn--green btn--sm nav__cta">Store / Service Enquiry</a>
+<body class="bg-canvas text-ink font-sans antialiased">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 inset-x-0 z-40 bg-[#F6F5F2]/85 backdrop-blur-md border-b border-black/5">
+    <div class="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 h-[64px] sm:h-[68px] flex items-center justify-between gap-2 sm:gap-4">
+      <a href="index.html" class="flex items-center gap-2.5 sm:gap-3 group shrink-0">
+        <img src="assets/logos/credence-first-emblem.png" alt="Credence First Realtors" class="h-9 w-9 sm:h-10 sm:w-10 object-contain group-hover:scale-105 transition" />
+        <div class="flex flex-col">
+          <span class="text-[15px] sm:text-[17px] font-semibold tracking-[-0.03em] leading-tight text-ink">Credence First</span>
+          <span class="text-[10px] sm:text-[11px] font-medium tracking-wider text-muted uppercase">Realtors</span>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 lg:gap-10 text-sm font-medium">
+        <a class="nav-link" href="index.html#residences">Residences</a>
+        <a class="nav-link" href="index.html#developers">Developers</a>
+        <a class="nav-link text-ink" href="contact.html">Contact</a>
       </nav>
-      <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
+      <a href="#contact-form-section" class="bg-[#111111] text-white rounded-full px-4 sm:px-6 py-2 sm:py-2.5 text-xs sm:text-sm font-medium hover:bg-black/80 transition whitespace-nowrap shrink-0">Schedule a Visit ↗</a>
     </div>
   </header>
 
-  <main>
-    <section class="page-hero">
-      <div class="container">
-        <span class="eyebrow eyebrow--light"><i></i> Contact OPPO Mumbai</span>
-        <h1>We're here to <em>help you</em> connect.</h1>
-        <p>Looking for the latest OPPO smartphone, trade-in quote, store demo, or an authorized service appointment in Mumbai? Send us your details below.</p>
+  <main class="pt-[64px] sm:pt-[68px]">
+    <!-- Hero / Header -->
+    <section class="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 pt-12 sm:pt-16 md:pt-24 pb-8 sm:pb-12">
+      <div class="max-w-3xl">
+        <span class="reveal inline-flex items-center gap-2 rounded-full bg-white px-3.5 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-[13px] font-medium text-[#111111] border border-black/[0.08]">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#111111]"></span>Direct Advisory Desk · Mumbai
+        </span>
+        <h1 class="reveal display text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-medium mt-4 sm:mt-6">
+          Get in touch with our Mumbai advisory.
+        </h1>
+        <p class="reveal text-[15px] sm:text-[17px] md:text-lg text-muted leading-relaxed mt-4 sm:mt-6 max-w-2xl" style="--d:80ms">
+          Whether you are evaluating a flagship primary residence or exploring new launches across Lodha, Godrej, Rustomjee, DLF, and Puraniks, our senior advisors are ready to assist with live availability and cost sheets.
+        </p>
       </div>
     </section>
 
-    <section class="section contact">
-      <div class="container contact__grid">
+    <section id="contact-form-section" class="max-w-[1440px] mx-auto px-5 md:px-10 py-12 md:py-16">
+      <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+        
+        <!-- Left: Advisory details & cards -->
+        <div class="lg:col-span-5 space-y-8">
+          <div class="reveal rounded-3xl bg-white p-8 md:p-10 border border-black/[0.04]">
+            <h2 class="display text-2xl md:text-3xl font-medium">Advisory desk</h2>
+            <p class="text-sm text-muted mt-2">Connect directly with our mandate desk for prompt assistance.</p>
 
-        <aside class="contact__info reveal">
-          <h2>Get in touch</h2>
-          <div class="info">
-            <span class="info__icon"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
-            <div><h3>Registered office</h3><p><strong>INLEAD ELECTRONICS PRIVATE LIMITED</strong><br /><span style="display:block;font-size:0.85rem;color:#4e6559;margin-bottom:4px;">(OPPO MUMBAI is a brand operated by INLEAD ELECTRONICS PRIVATE LIMITED)</span>2ND Floor, Unit No 201 A Wing, Everest Chambers, Marol Naka,<br />Marol Naka Metro Station, Andheri East, Mumbai, Mumbai Suburban, Maharashtra &ndash; 400059, India.</p></div>
-          </div>
-          <div class="info">
-            <span class="info__icon"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
-            <div><h3>Email</h3><p><a href="mailto:support@oppomumbai.in">support@oppomumbai.in</a></p></div>
-          </div>
-          <div class="info">
-            <span class="info__icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
-            <div><h3>Store &amp; support hours</h3><p>Mon – Sun, 10:00 am – 9:00 pm IST</p></div>
-          </div>
-        </aside>
+            <dl class="mt-8 space-y-6 text-[15px]">
+              <div>
+                <dt class="text-xs text-muted">Direct Desk (WhatsApp &amp; Call)</dt>
+                <dd class="font-medium mt-1 flex flex-wrap items-center gap-2 sm:gap-3">
+                  <a href="https://wa.me/917304971642" target="_blank" rel="noopener" class="text-ink hover:underline font-semibold">+91 73049 71642</a>
+                  <span class="text-muted text-xs">·</span>
+                  <a href="tel:+917304971642" class="text-xs font-medium text-white bg-[#111111] px-3.5 py-1.5 rounded-full hover:bg-black/80 transition">Call Now</a>
+                  <a href="https://wa.me/917304971642?text=Hello%2C%20I%20would%20like%20to%20connect%20with%20a%20Credence%20First%20Realtors%20advisor." target="_blank" rel="noopener" class="text-xs font-medium text-ink bg-[#ECEAE4] px-3.5 py-1.5 rounded-full hover:bg-stone-300 transition">WhatsApp</a>
+                </dd>
+              </div>
+              <div>
+                <dt class="text-xs text-muted">Operating Hours</dt>
+                <dd class="font-medium mt-1">Monday – Sunday, 10:00 AM – 8:00 PM IST</dd>
+              </div>
+              <div>
+                <dt class="text-xs text-muted">Registered Address</dt>
+                <dd class="font-medium mt-1 text-[14px] leading-relaxed">
+                  Aashiyana Art, C Wing, Block 1756/4, Amjadiya Road, Nagaon, Bhiwandi, Dist. Thane, Maharashtra
+                </dd>
+              </div>
+              <div>
+                <dt class="text-xs text-muted">Authorized Developer Representation</dt>
+                <dd class="font-medium mt-1 text-muted">Lodha · Godrej Properties · Rustomjee · DLF · Puraniks</dd>
+              </div>
+            </dl>
 
-        <div class="form-wrap reveal" style="--d:.1s">
-          <form id="contactForm" class="form" novalidate>
-            <div class="row">
-              <label class="field"><span>Full name *</span><input type="text" name="name" required autocomplete="name" placeholder="Your name" /></label>
-              <label class="field"><span>Email *</span><input type="email" name="email" required autocomplete="email" placeholder="you@example.com" /></label>
+            <div class="mt-8 pt-6 border-t border-black/[0.08]">
+              <a href="https://wa.me/917304971642?text=Hello%2C%20I%20would%20like%20to%20connect%20with%20a%20Credence%20First%20Realtors%20advisor." target="_blank" rel="noopener" class="flex items-center justify-center gap-2 w-full bg-[#111111] text-white rounded-full py-3.5 text-sm font-medium hover:bg-black/80 transition">
+                Direct WhatsApp Consultation ↗
+              </a>
             </div>
-            <div class="row">
-              <label class="field"><span>Phone *</span><input type="tel" name="phone" required autocomplete="tel" placeholder="+91 00000 00000" /></label>
-              <label class="field"><span>Preferred Mumbai location</span><input type="text" name="company" placeholder="e.g. Andheri East, Bandra, Malad, Thane" /></label>
-            </div>
-            <label class="field"><span>Enquiry type *</span>
-              <select name="topic" required>
-                <option value="">Select a topic</option>
-                <option>Smartphone Purchase / In-Store Demo</option>
-                <option>Exchange &amp; Upgrade Offer</option>
-                <option>Authorized Service &amp; Repair Booking</option>
-                <option>OPPO Care &amp; Extended Warranty</option>
-                <option>OPPO Pad, Watch &amp; Enco Audio</option>
-                <option>Corporate / Bulk Order Enquiry</option>
-                <option>Dealership / Retail Partnership</option>
-                <option>Other</option>
-              </select>
-            </label>
-            <label class="field"><span>Message *</span><textarea name="message" rows="5" required placeholder="Tell us the device model or how we can help you..."></textarea></label>
+          </div>
 
-            <div class="optin">
-              <label class="check">
-                <input type="checkbox" name="consent" required />
-                <i></i>
-                <span>I agree to the <a href="terms.html" target="_blank">Terms &amp; Conditions</a> and have read the <a href="privacy.html" target="_blank">Privacy Policy</a>. I consent to OPPO Mumbai (operated by INLEAD ELECTRONICS PRIVATE LIMITED) processing my details to respond to this enquiry via call, SMS, WhatsApp or email. *</span>
-              </label>
-              <label class="check">
-                <input type="checkbox" name="marketing" />
-                <i></i>
-                <span>Yes, I'd like to receive product launch updates, service reminders and exclusive Mumbai store offers via SMS, WhatsApp and email. I can unsubscribe at any time. <em class="opt">(Optional)</em></span>
-              </label>
-            </div>
+          <div class="reveal rounded-3xl bg-white p-8 md:p-10 border border-black/[0.04]" style="--d:120ms">
+            <h3 class="text-lg font-medium tracking-tight">Our Advisory Guarantee</h3>
+            <ul class="mt-4 space-y-3 text-sm text-muted">
+              <li class="flex items-start gap-2.5">
+                <span class="text-ink font-medium">✓</span>
+                <span>Direct developer inventory pricing with zero hidden advisory fees.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-ink font-medium">✓</span>
+                <span>Private, coordinated chauffeur visits to verified project show residences.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-ink font-medium">✓</span>
+                <span>Complete MahaRERA disclosure documents and official payment schedule breakdowns.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-            <p class="form__error" id="formError" role="alert" hidden></p>
-            <button type="submit" class="btn btn--primary btn--lg">Submit enquiry <span aria-hidden="true">→</span></button>
-          </form>
+        <!-- Right: Opt-in Form -->
+        <div class="lg:col-span-7">
+          <div class="reveal rounded-3xl bg-white p-8 md:p-12 shadow-[0_4px_24px_rgba(17,17,17,0.03)] border border-black/[0.05]" style="--d:100ms">
+            <h2 class="display text-3xl md:text-4xl font-medium mb-2">Book a consultation</h2>
+            <p class="text-sm text-muted mb-8">
+              Fill in your details below. An advisor will prepare the requested cost sheets and reach out to you via WhatsApp or phone.
+            </p>
 
-          <div class="success" id="formSuccess" hidden>
-            <div class="success__icon">✓</div>
-            <h2>Thank you!</h2>
-            <p>We've received your enquiry and our OPPO Mumbai team will get back to you shortly.</p>
-            <a href="index.html" class="btn btn--outline">Back to home</a>
+            <form id="fullContactForm" class="space-y-4" novalidate>
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs text-muted mb-1.5 ml-1">Full Name *</label>
+                  <input class="soft-input bg-[#F6F5F2]" name="fullName" placeholder="e.g. Rahul Sharma" autocomplete="name" required />
+                </div>
+                <div>
+                  <label class="block text-xs text-muted mb-1.5 ml-1">Mobile Number *</label>
+                  <input class="soft-input bg-[#F6F5F2]" name="mobile" placeholder="10-digit number (+91)" inputmode="tel" autocomplete="tel" required />
+                </div>
+              </div>
+
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs text-muted mb-1.5 ml-1">Email Address</label>
+                  <input type="email" class="soft-input bg-[#F6F5F2]" name="email" placeholder="name@example.com" autocomplete="email" />
+                </div>
+                <div>
+                  <label class="block text-xs text-muted mb-1.5 ml-1">Preferred Project</label>
+                  <select class="soft-input bg-[#F6F5F2]" name="project" id="projectSelect">
+                    <option value="General Consultation">General Consultation / Not Sure Yet</option>
+                    <option value="The Westpark">The Westpark (DLF) — Andheri West</option>
+                    <option value="Lodha Bellevue">Lodha Bellevue (Lodha) — Mahalaxmi</option>
+                    <option value="Rustomjee Crown">Rustomjee Crown (Rustomjee) — Prabhadevi</option>
+                    <option value="Puraniks Mirai">Puraniks Mirai (Puraniks) — Thane West</option>
+                    <option value="Godrej Reserve">Godrej Reserve (Godrej) — Kandivali East</option>
+                    <option value="Godrej Nirvaan">Godrej Nirvaan (Godrej) — Kalyan</option>
+                    <option value="Lodha Altamount">Lodha Altamount (Lodha) — Altamount Road</option>
+                    <option value="Rustomjee Seasons">Rustomjee Seasons (Rustomjee) — BKC</option>
+                    <option value="Lodha Malabar">Lodha Malabar (Lodha) — Malabar Hill</option>
+                    <option value="Godrej Horizon">Godrej Horizon (Godrej) — Wadala</option>
+                    <option value="Rustomjee Urbania">Rustomjee Urbania (Rustomjee) — Majiwada</option>
+                    <option value="Godrej Vistas">Godrej Vistas (Godrej) — Vikhroli</option>
+                    <option value="Godrej Ascend">Godrej Ascend (Godrej) — Thane</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs text-muted mb-1.5 ml-1">Typology</label>
+                  <select class="soft-input bg-[#F6F5F2]" name="configuration">
+                    <option>2 BHK</option>
+                    <option selected>3 BHK</option>
+                    <option>4 BHK</option>
+                    <option>5 BHK and above</option>
+                    <option>Penthouse / Duplex</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="block text-xs text-muted mb-1.5 ml-1">Estimated Budget</label>
+                  <select class="soft-input bg-[#F6F5F2]" name="budget">
+                    <option value="₹ 1 Cr - ₹ 2.5 Cr">₹ 1 Cr – ₹ 2.5 Cr</option>
+                    <option value="₹ 2.5 Cr - ₹ 5 Cr" selected>₹ 2.5 Cr – ₹ 5 Cr</option>
+                    <option value="₹ 5 Cr - ₹ 10 Cr">₹ 5 Cr – ₹ 10 Cr</option>
+                    <option value="₹ 10 Cr+">₹ 10 Cr &amp; Above</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs text-muted mb-1.5 ml-1">Specific Requirements or Preferred Timing</label>
+                <textarea class="soft-input bg-[#F6F5F2]" name="message" placeholder="e.g. Looking for higher floor sea-facing deck or specific possession by Dec 2026..."></textarea>
+              </div>
+
+              <!-- Mandatory Compliance Opt-in Checkbox -->
+              <div class="pt-2 pb-2">
+                <label class="optin-label">
+                  <input type="checkbox" name="optin" id="contactOptin" required checked />
+                  <span>
+                    I authorize Credence First Realtors and its verified advisory representatives to contact me via Call, SMS, RCS, WhatsApp, and Email regarding project availability, floor plans, and pricing, overriding any NDNC / DND registration. I agree to the <a href="terms.html" target="_blank" rel="noopener">Terms &amp; Conditions</a> and <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.
+                  </span>
+                </label>
+              </div>
+
+              <button type="submit" id="submitBtn" class="w-full bg-[#111111] text-white rounded-full py-4 text-[15px] font-medium hover:bg-black/80 transition">
+                Submit Consultation Request ↗
+              </button>
+              <p id="contactStatus" class="text-sm text-muted min-h-[20px]" role="status"></p>
+            </form>
           </div>
         </div>
 
@@ -109,23 +217,129 @@
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer__grid">
-      <div class="footer__brand">
-        <img src="assets/oppo-logo.svg" alt="OPPO Mumbai" width="160" height="28" />
-        <span class="footer__legal-name">INLEAD ELECTRONICS PRIVATE LIMITED</span>
-        <span class="footer__brand-note">OPPO MUMBAI is a brand operated by INLEAD ELECTRONICS PRIVATE LIMITED</span>
-        <p class="footer__address">2ND Floor, Unit No 201 A Wing, Everest Chambers, Marol Naka, Marol Naka Metro Station, Andheri East, Mumbai, Mumbai Suburban, Maharashtra &ndash; 400059, India.</p>
+  <!-- Footer -->
+  <footer class="border-t border-black/[0.08] mt-20">
+    <div class="max-w-[1440px] mx-auto px-5 md:px-10 py-12">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 pb-8 border-b border-black/[0.06]">
+        <div>
+          <a href="index.html" class="flex items-center gap-3 mb-2 group">
+            <img src="assets/logos/credence-first-emblem.png" alt="Credence First Realtors" class="h-11 w-11 object-contain" />
+            <div class="flex flex-col">
+              <span class="text-lg font-semibold tracking-[-0.03em] leading-tight text-ink">Credence First Realtors</span>
+              <span class="text-[11px] text-muted tracking-wider uppercase">People • Properties • Possibilities</span>
+            </div>
+          </a>
+          <p class="text-sm text-muted mt-2">Authorised Channel Partner for Lodha, Godrej Properties, Rustomjee, DLF, and Puraniks.</p>
+        </div>
+        <div class="flex flex-wrap gap-6 text-sm font-medium">
+          <a href="index.html#residences" class="nav-link">Residences</a>
+          <a href="index.html#developers" class="nav-link">Developers</a>
+          <a href="contact.html" class="nav-link text-ink">Contact Us</a>
+          <a href="terms.html" class="nav-link">Terms &amp; Conditions</a>
+          <a href="privacy.html" class="nav-link">Privacy Policy</a>
+        </div>
       </div>
-      <div><h4>OPPO Mumbai</h4><a href="index.html#smartphones">Smartphones</a><a href="index.html#stores">Mumbai Stores</a><a href="index.html#board">OPPO Care</a><a href="contact.html">Contact</a></div>
-      <div><h4>Products</h4><a href="index.html#smartphones">Find X Series</a><a href="index.html#reno-spotlight">Reno Series 5G</a><a href="index.html#smartphones">F Series</a><a href="index.html#iot">Pad &amp; Audio</a></div>
-      <div><h4>Legal</h4><a href="terms.html">Terms &amp; Conditions</a><a href="privacy.html">Privacy Policy</a></div>
-    </div>
-    <div class="container footer__bottom">
-      <span>&copy; <span id="year"></span> INLEAD ELECTRONICS PRIVATE LIMITED. All rights reserved.</span>
-      <span><a href="privacy.html" class="inl">Privacy</a> &middot; <a href="terms.html" class="inl">Terms</a></span>
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4 pt-8 text-xs text-muted">
+        <p>© CREDENCE FIRST REALTORS (UDYAM-MH-33-0849010). All rights reserved.</p>
+        <p>MahaRERA numbers are project-specific and available upon request. Verify at <a href="https://maharera.maharashtra.gov.in" target="_blank" rel="noopener" class="underline">maharera.maharashtra.gov.in</a>.</p>
+      </div>
     </div>
   </footer>
-  <script src="main.js"></script>
+
+  <!-- Mobile Sticky Bottom Quick Action Bar -->
+  <nav class="md:hidden fixed bottom-3 inset-x-3 z-30 bg-[#111111]/92 backdrop-blur-xl text-white rounded-full p-1.5 flex items-center justify-between shadow-[0_12px_36px_rgba(0,0,0,0.35)] border border-white/15" aria-label="Mobile quick actions">
+    <a href="tel:+917304971642" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-medium text-white hover:bg-white/10 rounded-full transition">
+      <span class="text-sm">📞</span> <span>Call Desk</span>
+    </a>
+    <div class="w-px h-5 bg-white/20"></div>
+    <a href="https://wa.me/917304971642" target="_blank" rel="noopener" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-medium text-white hover:bg-white/10 rounded-full transition">
+      <span class="text-sm">💬</span> <span>WhatsApp</span>
+    </a>
+    <div class="w-px h-5 bg-white/20"></div>
+    <a href="#contact-form-section" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-semibold bg-white text-[#111111] rounded-full shadow-sm hover:bg-white/90 transition">
+      <span>Enquire ↗</span>
+    </a>
+  </nav>
+
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script>
+    // Smooth Lenis Scroll
+    if (window.Lenis && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const lenis = new Lenis({ lerp: 0.08, smoothWheel: true });
+      const raf = (t) => { lenis.raf(t); requestAnimationFrame(raf); };
+      requestAnimationFrame(raf);
+    }
+
+    // Reveal animations
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((en) => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+
+    // Handle Form Submit with Opt-in Validation
+    const form = document.getElementById('fullContactForm');
+    const statusEl = document.getElementById('contactStatus');
+    const btn = document.getElementById('submitBtn');
+    const optin = document.getElementById('contactOptin');
+    const WA_NUMBER = '917304971642';
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const fd = Object.fromEntries(new FormData(form));
+      
+      const cleanMobile = String(fd.mobile || '').replace(/\D/g, '').replace(/^91/, '');
+      if (String(fd.fullName || '').trim().length < 2) {
+        statusEl.textContent = 'Please enter your full name.';
+        return;
+      }
+      if (!/^[6-9]\d{9}$/.test(cleanMobile)) {
+        statusEl.textContent = 'Please enter a valid 10-digit Indian mobile number.';
+        return;
+      }
+      if (!optin.checked) {
+        statusEl.textContent = 'Please accept the communication opt-in to continue.';
+        return;
+      }
+
+      btn.disabled = true;
+      statusEl.textContent = 'Registering your request...';
+
+      const waText = `Hello, I'm ${fd.fullName} (+91${cleanMobile}). I submitted a consultation request for ${fd.project || 'Mumbai Residences'} (${fd.configuration || '3 BHK'}, Budget: ${fd.budget || 'Not specified'}). ${fd.message ? 'Note: ' + fd.message : ''}`.trim();
+      const waFallback = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(waText)}`;
+
+      try {
+        const res = await fetch('/api/leads', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            fullName: fd.fullName,
+            mobile: '+91' + cleanMobile,
+            email: fd.email || '',
+            project: fd.project || 'Credence First Realtors Advisory',
+            configuration: fd.configuration || 'Not Specified',
+            budget: fd.budget || '',
+            inquiryType: 'Full Contact Page Consultation',
+            optInConsent: true,
+            sourceUrl: location.href,
+            submittedAt: new Date().toISOString()
+          })
+        });
+        const data = await res.json();
+        if (!res.ok || !data.ok) throw new Error(data.error || 'Server error');
+
+        statusEl.textContent = 'Thank you. Redirecting to our WhatsApp advisory desk...';
+        form.reset();
+        window.open(data.whatsappRedirect || waFallback, '_blank', 'noopener');
+      } catch (err) {
+        statusEl.textContent = 'Thank you. Opening WhatsApp advisory desk directly...';
+        window.open(waFallback, '_blank', 'noopener');
+      } finally {
+        btn.disabled = false;
+      }
+    });
+  </script>
 </body>
 </html>
+
+
+

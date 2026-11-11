@@ -1,106 +1,192 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy | OPPO Mumbai</title>
-  <link rel="icon" href="assets/oppo-logo.svg" type="image/svg+xml" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Credence First Realtors | Mumbai Real Estate Advisory</title><link rel="icon" href="assets/logos/credence-first-emblem.png" type="image/png" />
+  <meta name="description" content="Privacy policy and data protection practices of Credence First Realtors, an authorized real estate channel partner in Mumbai." />
+  <meta name="theme-color" content="#F6F5F2" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'] },
+          colors: { canvas: '#F6F5F2', stone: '#ECEAE4', ink: '#111111', muted: '#6E6D68' }
+        }
+      }
+    };
+  </script>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <header class="header scrolled" id="header" data-solid>
-    <div class="container header__inner">
-      <a href="index.html" class="brand" aria-label="OPPO Mumbai home"><img src="assets/oppo-logo.svg" alt="OPPO Mumbai" width="160" height="28" /></a>
-      <nav class="nav" id="nav" aria-label="Main">
-        <a href="index.html#smartphones">Smartphones</a>
-        <a href="index.html#reno-spotlight">Reno16 Series</a>
-        <a href="index.html#features">Hasselblad &amp; AI</a>
-        <a href="index.html#iot">Tablets &amp; Audio</a>
-        <a href="index.html#stores">Mumbai Stores</a>
-        <a href="contact.html" class="btn btn--green btn--sm nav__cta">Store / Service Enquiry</a>
+<body class="bg-canvas text-ink font-sans antialiased">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 inset-x-0 z-40 bg-[#F6F5F2]/85 backdrop-blur-md border-b border-black/5">
+    <div class="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 h-[64px] sm:h-[68px] flex items-center justify-between gap-2 sm:gap-4">
+      <a href="index.html" class="flex items-center gap-2.5 sm:gap-3 group shrink-0">
+        <img src="assets/logos/credence-first-emblem.png" alt="Credence First Realtors" class="h-9 w-9 sm:h-10 sm:w-10 object-contain group-hover:scale-105 transition" />
+        <div class="flex flex-col">
+          <span class="text-[15px] sm:text-[17px] font-semibold tracking-[-0.03em] leading-tight text-ink">Credence First</span>
+          <span class="text-[10px] sm:text-[11px] font-medium tracking-wider text-muted uppercase">Realtors</span>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 lg:gap-10 text-sm font-medium">
+        <a class="nav-link" href="index.html#residences">Residences</a>
+        <a class="nav-link" href="index.html#developers">Developers</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </nav>
-      <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
+      <a href="contact.html" class="bg-[#111111] text-white rounded-full px-4 sm:px-6 py-2 sm:py-2.5 text-xs sm:text-sm font-medium hover:bg-black/80 transition whitespace-nowrap shrink-0">Schedule a Visit ↗</a>
     </div>
   </header>
 
-  <main>
-    <section class="page-hero">
-      <div class="container">
-        <span class="eyebrow eyebrow--light"><i></i> Legal</span>
-        <h1>Privacy <em>Policy</em></h1>
-        <p>Last updated: October 2026</p>
+  <main class="pt-[64px] sm:pt-[68px]">
+    <!-- Hero / Title -->
+    <section class="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 pt-12 sm:pt-16 md:pt-24 pb-8 sm:pb-10">
+      <div class="max-w-3xl">
+        <span class="reveal inline-flex items-center gap-2 rounded-full bg-white px-3.5 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-[13px] font-medium text-[#111111] border border-black/[0.08]">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#111111]"></span>Data Protection &amp; Confidentiality
+        </span>
+        <h1 class="reveal display text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-medium mt-4 sm:mt-6">
+          Privacy Policy
+        </h1>
+        <p class="reveal text-[15px] sm:text-[17px] text-muted leading-relaxed mt-4 sm:mt-6 max-w-2xl" style="--d:80ms">
+          Last updated: January 2026. This Privacy Policy outlines how Credence First Realtors collects, utilizes, and protects your personal data when browsing our portfolio or requesting developer cost sheets.
+        </p>
       </div>
     </section>
 
-    <section class="section legal">
-      <div class="container legal__grid">
-        <nav class="toc" aria-label="On this page">
-          <b>On this page</b>
-          <a href="#p1">1. Information we collect</a>
-          <a href="#p2">2. How we use it</a>
-          <a href="#p3">3. Consent &amp; opt-in</a>
-          <a href="#p4">4. Sharing of data</a>
-          <a href="#p5">5. Cookies</a>
-          <a href="#p6">6. Retention &amp; security</a>
-          <a href="#p7">7. Your rights</a>
-          <a href="#p8">8. Contact</a>
-        </nav>
+    <!-- Content Sections -->
+    <section class="max-w-[1440px] mx-auto px-5 md:px-10 py-10 md:py-16">
+      <div class="max-w-4xl space-y-12">
 
-        <article class="prose">
-          <h2 id="p1">1. Information we collect</h2>
-          <p>When you submit our contact or service booking form on the OPPO Mumbai website (operated by INLEAD ELECTRONICS PRIVATE LIMITED), we collect the details you provide: your name, email address, phone number, preferred Mumbai location, enquiry type and message. We may also collect technical data such as IP address, browser type and pages visited to keep the website secure and improve user experience.</p>
-
-          <h2 id="p2">2. How we use it</h2>
-          <ul>
-            <li>To respond to your product, store visit, exchange, or service enquiries and requests.</li>
-            <li>To schedule in-store demos or authorized service appointments across Mumbai.</li>
-            <li>To operate, secure and improve our website and customer support.</li>
-            <li>To comply with legal and regulatory obligations (including TRAI DLT regulations).</li>
-            <li>To send you launch updates and exclusive store offers — <strong>only if you opted in</strong>.</li>
-          </ul>
-
-          <h2 id="p3">3. Consent &amp; opt-in</h2>
-          <p>We process the details in your enquiry based on your explicit consent, given by ticking the required consent box on the contact form. Promotional and marketing communications are separate and optional: the marketing box is never pre-selected, and we will send you promotional messages or updates only if you tick it. You can withdraw consent or unsubscribe at any time using the opt-out instructions in our messages or by contacting us.</p>
-
-          <h2 id="p4">4. Sharing of data</h2>
-          <p>We do not sell your personal information. We may share it with authorized OPPO store/service partners in Mumbai and trusted communication providers who help us operate the website and handle customer enquiries, under strict confidentiality obligations, or where required by law.</p>
-
-          <h2 id="p5">5. Cookies</h2>
-          <p>We use essential cookies and, where applicable, analytics cookies to understand how visitors use the site. You can control cookies through your browser settings.</p>
-
-          <h2 id="p6">6. Retention &amp; security</h2>
-          <p>We keep personal data only as long as needed for the purposes described above or as required by law. We apply reasonable technical and organisational measures to protect it, though no online transmission is completely secure.</p>
-
-          <h2 id="p7">7. Your rights</h2>
-          <p>Subject to applicable law (including India's Digital Personal Data Protection Act, 2023), you may request access to, correction or erasure of your personal data, and withdraw your consent at any time.</p>
-
-          <h2 id="p8">8. Contact</h2>
-          <p>For privacy questions or to exercise your rights, email <a href="mailto:support@oppomumbai.in">support@oppomumbai.in</a> or use our <a href="contact.html">contact page</a>.</p>
+        <article class="reveal rounded-3xl bg-white p-8 md:p-12 border border-black/[0.05]">
+          <h2 class="display text-2xl md:text-3xl font-medium mb-4">Information We Collect</h2>
+          <div class="space-y-4 text-sm md:text-[15px] leading-relaxed text-muted">
+            <p>
+              When you submit a consultation form, request a brochure, or contact our team via WhatsApp, we collect personal information necessary to deliver property advisory services. This includes:
+            </p>
+            <ul class="list-disc pl-5 space-y-2 text-muted">
+              <li><strong class="text-ink font-medium">Contact Identifiers:</strong> Full Name, Mobile Number, WhatsApp handle, and Email Address.</li>
+              <li><strong class="text-ink font-medium">Purchase Preferences:</strong> Interested project name, desired BHK configuration, carpet area preferences, and investment budget.</li>
+              <li><strong class="text-ink font-medium">Technical Data:</strong> IP address, device type, and referring URL collected through standard server logs for security auditing.</li>
+            </ul>
+          </div>
         </article>
+
+        <article class="reveal rounded-3xl bg-white p-8 md:p-12 border border-black/[0.05]" style="--d:80ms">
+          <h2 class="display text-2xl md:text-3xl font-medium mb-4">How Your Information Is Used</h2>
+          <div class="space-y-4 text-sm md:text-[15px] leading-relaxed text-muted">
+            <p>We process your data strictly for legitimate real estate facilitation purposes:</p>
+            <ul class="list-disc pl-5 space-y-2 text-muted">
+              <li>Transmitting requested project brochures, floor plans, and pricing matrices via WhatsApp or email.</li>
+              <li>Scheduling and coordinating private site visits, sample flat walkthroughs, and developer sales gallery appointments.</li>
+              <li>Verifying eligibility for direct developer pre-launch offers, payment milestones, and bank loan approvals.</li>
+              <li>Maintaining statutory lead records as required under MahaRERA channel partner compliance standards.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="reveal rounded-3xl bg-white p-8 md:p-12 border border-black/[0.05]" style="--d:120ms">
+          <h2 class="display text-2xl md:text-3xl font-medium mb-4">Explicit Opt-In, SMS, RCS &amp; WhatsApp Communications</h2>
+          <div class="space-y-4 text-sm md:text-[15px] leading-relaxed text-muted">
+            <p>
+              By checking the opt-in checkbox on our forms or initiating a chat with our advisory desk, you provide explicit affirmative consent to receive communications via voice call, SMS, RCS, WhatsApp, and email from Credence First Realtors. This consent takes precedence over any registration on the National Customer Preference Register (NCPR / NDNC).
+            </p>
+            <p>
+              We do not engage in automated spam robocalling. All communications are conducted by assigned property consultants. You retain the right to unsubscribe or update your contact preferences at any time by messaging "STOP" on WhatsApp/RCS or notifying your advisor.
+            </p>
+          </div>
+        </article>
+
+        <article class="reveal rounded-3xl bg-white p-8 md:p-12 border border-black/[0.05]" style="--d:160ms">
+          <h2 class="display text-2xl md:text-3xl font-medium mb-4">Information Sharing &amp; Third Parties</h2>
+          <div class="space-y-4 text-sm md:text-[15px] leading-relaxed text-muted">
+            <p>
+              We value your confidentiality. <strong class="text-ink font-medium">We do not sell, rent, or trade your personal data to third-party marketing brokers or telemarketers.</strong>
+            </p>
+            <p>
+              Your contact details are shared exclusively with the authorized sales CRM of the specific developer project you inquired about (Lodha, Godrej, Rustomjee, DLF, or Puraniks) for the purpose of booking confirmation, site entry passes, and official unit allotment.
+            </p>
+          </div>
+        </article>
+
+        <article class="reveal rounded-3xl bg-white p-8 md:p-12 border border-black/[0.05]" style="--d:200ms">
+          <h2 class="display text-2xl md:text-3xl font-medium mb-4">Security, Retention &amp; User Rights</h2>
+          <div class="space-y-4 text-sm md:text-[15px] leading-relaxed text-muted">
+            <p>
+              All customer leads submitted through our website are transmitted over secure, SSL-encrypted channels. Data is stored on access-controlled servers with restricted internal access limited strictly to certified advisory personnel.
+            </p>
+            <p>
+              Under applicable Indian data protection principles and the Digital Personal Data Protection (DPDP) Act, you have the right to request access to your stored personal information, request corrections, or ask for the deletion of your records.
+            </p>
+            <p>
+              For privacy queries or deletion requests, please contact our Compliance Desk at: <span class="text-ink font-medium">compliance@credencefirst.in</span> or via post to our registered office: <span class="text-ink font-medium">Aashiyana Art, C Wing, Block 1756/4, Amjadiya Road, Nagaon, Bhiwandi, Dist. Thane, Maharashtra</span>.
+            </p>
+          </div>
+        </article>
+
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer__grid">
-      <div class="footer__brand">
-        <img src="assets/oppo-logo.svg" alt="OPPO Mumbai" width="160" height="28" />
-        <span class="footer__legal-name">INLEAD ELECTRONICS PRIVATE LIMITED</span>
-        <span class="footer__brand-note">OPPO MUMBAI is a brand operated by INLEAD ELECTRONICS PRIVATE LIMITED</span>
-        <p class="footer__address">2ND Floor, Unit No 201 A Wing, Everest Chambers, Marol Naka, Marol Naka Metro Station, Andheri East, Mumbai, Mumbai Suburban, Maharashtra &ndash; 400059, India.</p>
+  <!-- Footer -->
+  <footer class="border-t border-black/[0.08] mt-20">
+    <div class="max-w-[1440px] mx-auto px-5 md:px-10 py-12">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 pb-8 border-b border-black/[0.06]">
+        <div>
+          <a href="index.html" class="flex items-center gap-3 mb-2 group"><img src="assets/logos/credence-first-emblem.png" alt="Credence First Realtors" class="h-11 w-11 object-contain" /><div class="flex flex-col"><span class="text-lg font-semibold tracking-[-0.03em] leading-tight text-ink">Credence First Realtors</span><span class="text-[11px] text-muted tracking-wider uppercase">People • Properties • Possibilities</span></div></a>
+          <p class="text-sm text-muted mt-1">Authorised Channel Partner for Lodha, Godrej Properties, Rustomjee, DLF, and Puraniks.</p>
+        </div>
+        <div class="flex flex-wrap gap-6 text-sm font-medium">
+          <a href="index.html#residences" class="nav-link">Residences</a>
+          <a href="index.html#developers" class="nav-link">Developers</a>
+          <a href="contact.html" class="nav-link">Contact Us</a>
+          <a href="terms.html" class="nav-link">Terms &amp; Conditions</a>
+          <a href="privacy.html" class="nav-link text-ink">Privacy Policy</a>
+        </div>
       </div>
-      <div><h4>OPPO Mumbai</h4><a href="index.html#smartphones">Smartphones</a><a href="index.html#stores">Mumbai Stores</a><a href="index.html#board">OPPO Care</a><a href="contact.html">Contact</a></div>
-      <div><h4>Products</h4><a href="index.html#smartphones">Find X Series</a><a href="index.html#reno-spotlight">Reno Series 5G</a><a href="index.html#smartphones">F Series</a><a href="index.html#iot">Pad &amp; Audio</a></div>
-      <div><h4>Legal</h4><a href="terms.html">Terms &amp; Conditions</a><a href="privacy.html">Privacy Policy</a></div>
-    </div>
-    <div class="container footer__bottom">
-      <span>&copy; <span id="year"></span> INLEAD ELECTRONICS PRIVATE LIMITED. All rights reserved.</span>
-      <span><a href="privacy.html" class="inl">Privacy</a> &middot; <a href="terms.html" class="inl">Terms</a></span>
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4 pt-8 text-xs text-muted">
+        <p>© CREDENCE FIRST REALTORS (UDYAM-MH-33-0849010). All rights reserved.</p>
+        <p>MahaRERA numbers are project-specific and available upon request. Verify at <a href="https://maharera.maharashtra.gov.in" target="_blank" rel="noopener" class="underline">maharera.maharashtra.gov.in</a>.</p>
+      </div>
     </div>
   </footer>
-  <script src="main.js"></script>
+
+  <!-- Mobile Sticky Bottom Quick Action Bar -->
+  <nav class="md:hidden fixed bottom-3 inset-x-3 z-30 bg-[#111111]/92 backdrop-blur-xl text-white rounded-full p-1.5 flex items-center justify-between shadow-[0_12px_36px_rgba(0,0,0,0.35)] border border-white/15" aria-label="Mobile quick actions">
+    <a href="tel:+917304971642" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-medium text-white hover:bg-white/10 rounded-full transition">
+      <span class="text-sm">📞</span> <span>Call Desk</span>
+    </a>
+    <div class="w-px h-5 bg-white/20"></div>
+    <a href="https://wa.me/917304971642" target="_blank" rel="noopener" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-medium text-white hover:bg-white/10 rounded-full transition">
+      <span class="text-sm">💬</span> <span>WhatsApp</span>
+    </a>
+    <div class="w-px h-5 bg-white/20"></div>
+    <a href="contact.html" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-semibold bg-white text-[#111111] rounded-full shadow-sm hover:bg-white/90 transition">
+      <span>Enquire ↗</span>
+    </a>
+  </nav>
+
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script>
+    if (window.Lenis && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const lenis = new Lenis({ lerp: 0.08, smoothWheel: true });
+      const raf = (t) => { lenis.raf(t); requestAnimationFrame(raf); };
+      requestAnimationFrame(raf);
+    }
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((en) => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+  </script>
 </body>
 </html>
+
+
+

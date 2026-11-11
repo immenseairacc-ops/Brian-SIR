@@ -1,104 +1,186 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Terms &amp; Conditions | OPPO Mumbai</title>
-  <link rel="icon" href="assets/oppo-logo.svg" type="image/svg+xml" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terms &amp; Conditions — Credence First Realtors | Mumbai Real Estate Advisory</title><link rel="icon" href="assets/logos/credence-first-emblem.png" type="image/png" />
+  <meta name="description" content="Terms and conditions for Credence First Realtors, an authorized real estate channel partner representing Lodha, Godrej Properties, Rustomjee, DLF, and Puraniks in Mumbai." />
+  <meta name="theme-color" content="#F6F5F2" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'] },
+          colors: { canvas: '#F6F5F2', stone: '#ECEAE4', ink: '#111111', muted: '#6E6D68' }
+        }
+      }
+    };
+  </script>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <header class="header scrolled" id="header" data-solid>
-    <div class="container header__inner">
-      <a href="index.html" class="brand" aria-label="OPPO Mumbai home"><img src="assets/oppo-logo.svg" alt="OPPO Mumbai" width="160" height="28" /></a>
-      <nav class="nav" id="nav" aria-label="Main">
-        <a href="index.html#smartphones">Smartphones</a>
-        <a href="index.html#reno-spotlight">Reno16 Series</a>
-        <a href="index.html#features">Hasselblad &amp; AI</a>
-        <a href="index.html#iot">Tablets &amp; Audio</a>
-        <a href="index.html#stores">Mumbai Stores</a>
-        <a href="contact.html" class="btn btn--green btn--sm nav__cta">Store / Service Enquiry</a>
+<body class="bg-canvas text-ink font-sans antialiased">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 inset-x-0 z-40 bg-[#F6F5F2]/85 backdrop-blur-md border-b border-black/5">
+    <div class="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 h-[64px] sm:h-[68px] flex items-center justify-between gap-2 sm:gap-4">
+      <a href="index.html" class="flex items-center gap-2.5 sm:gap-3 group shrink-0">
+        <img src="assets/logos/credence-first-emblem.png" alt="Credence First Realtors" class="h-9 w-9 sm:h-10 sm:w-10 object-contain group-hover:scale-105 transition" />
+        <div class="flex flex-col">
+          <span class="text-[15px] sm:text-[17px] font-semibold tracking-[-0.03em] leading-tight text-ink">Credence First</span>
+          <span class="text-[10px] sm:text-[11px] font-medium tracking-wider text-muted uppercase">Realtors</span>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 lg:gap-10 text-sm font-medium">
+        <a class="nav-link" href="index.html#residences">Residences</a>
+        <a class="nav-link" href="index.html#developers">Developers</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </nav>
-      <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
+      <a href="contact.html" class="bg-[#111111] text-white rounded-full px-4 sm:px-6 py-2 sm:py-2.5 text-xs sm:text-sm font-medium hover:bg-black/80 transition whitespace-nowrap shrink-0">Schedule a Visit ↗</a>
     </div>
   </header>
 
-  <main>
-    <section class="page-hero">
-      <div class="container">
-        <span class="eyebrow eyebrow--light"><i></i> Legal</span>
-        <h1>Terms &amp; <em>Conditions</em></h1>
-        <p>Last updated: October 2026</p>
+  <main class="pt-[64px] sm:pt-[68px]">
+    <!-- Hero / Title -->
+    <section class="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 pt-12 sm:pt-16 md:pt-24 pb-8 sm:pb-10">
+      <div class="max-w-3xl">
+        <span class="reveal inline-flex items-center gap-2 rounded-full bg-white px-3.5 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-[13px] font-medium text-[#111111] border border-black/[0.08]">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#111111]"></span>Legal &amp; Regulatory Disclosures
+        </span>
+        <h1 class="reveal display text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-medium mt-4 sm:mt-6">
+          Terms &amp; Conditions
+        </h1>
+        <p class="reveal text-[15px] sm:text-[17px] text-muted leading-relaxed mt-4 sm:mt-6 max-w-2xl" style="--d:80ms">
+          Last revised: January 2026. Please review the terms governing the use of this advisory portal, project representations, and communications.
+        </p>
       </div>
     </section>
 
-    <section class="section legal">
-      <div class="container legal__grid">
-        <nav class="toc" aria-label="On this page">
-          <b>On this page</b>
-          <a href="#t1">1. Acceptance of terms</a>
-          <a href="#t2">2. Use of the website</a>
-          <a href="#t3">3. Intellectual property</a>
-          <a href="#t4">4. Enquiries &amp; communications</a>
-          <a href="#t5">5. Third-party links</a>
-          <a href="#t6">6. Disclaimer</a>
-          <a href="#t7">7. Limitation of liability</a>
-          <a href="#t8">8. Governing law</a>
-          <a href="#t9">9. Changes &amp; contact</a>
-        </nav>
+    <!-- Content Sections -->
+    <section class="max-w-[1440px] mx-auto px-5 md:px-10 py-10 md:py-16">
+      <div class="max-w-4xl space-y-12">
 
-        <article class="prose">
-          <h2 id="t1">1. Acceptance of terms</h2>
-          <p>By accessing or using the OPPO Mumbai website (operated by INLEAD ELECTRONICS PRIVATE LIMITED), you agree to be bound by these Terms &amp; Conditions and our <a href="privacy.html">Privacy Policy</a>. If you do not agree, please do not use the website.</p>
-
-          <h2 id="t2">2. Use of the website</h2>
-          <p>You agree to use this website only for lawful purposes and in a way that does not infringe the rights of others or restrict their use of the site. You must not attempt to gain unauthorised access to the website, its servers or any connected systems, or introduce malicious code.</p>
-
-          <h2 id="t3">3. Intellectual property</h2>
-          <p>All content on this website, including text, graphics, logos, product visuals and design, is owned by or licensed to OPPO Mumbai / INLEAD ELECTRONICS PRIVATE LIMITED and respective brand owners and is protected by applicable intellectual property laws. You may view and print content for personal, non-commercial use. Any other use requires prior written permission.</p>
-
-          <h2 id="t4">4. Enquiries &amp; communications</h2>
-          <p>When you submit an enquiry through our contact or service booking form, you confirm that the information you provide is accurate. We will use it to respond to you via phone, SMS, WhatsApp or email as described in our Privacy Policy. We will send you marketing communications only if you have explicitly opted in, and you may withdraw that consent at any time.</p>
-
-          <h2 id="t5">5. Third-party links</h2>
-          <p>This website may contain links to third-party websites. These are provided for convenience only. We do not control or endorse their content and are not responsible for their practices.</p>
-
-          <h2 id="t6">6. Disclaimer</h2>
-          <p>Product specifications, store availability, exchange bonuses and service timelines on this website are provided for general informational purposes and are offered "as is" without warranties of any kind, express or implied. We make reasonable efforts to keep information accurate and current across Mumbai locations.</p>
-
-          <h2 id="t7">7. Limitation of liability</h2>
-          <p>To the fullest extent permitted by law, OPPO Mumbai (INLEAD ELECTRONICS PRIVATE LIMITED) shall not be liable for any indirect, incidental or consequential loss arising from your use of, or inability to use, this website.</p>
-
-          <h2 id="t8">8. Governing law</h2>
-          <p>These terms are governed by the laws of India. Courts at Mumbai shall have exclusive jurisdiction over any dispute arising from them.</p>
-
-          <h2 id="t9">9. Changes &amp; contact</h2>
-          <p>We may update these terms from time to time. The latest version will always be available on this page. Questions? Write to us via our <a href="contact.html">contact page</a>.</p>
+        <article class="reveal rounded-3xl bg-white p-8 md:p-12 border border-black/[0.05]">
+          <h2 class="display text-2xl md:text-3xl font-medium mb-4">Channel Partner Representation &amp; Advisory Scope</h2>
+          <div class="space-y-4 text-sm md:text-[15px] leading-relaxed text-muted">
+            <p>
+              Credence First Realtors operates as an authorized Real Estate Channel Partner and independent advisory representing premier developers across the Mumbai Metropolitan Region (MMR), including <strong class="text-ink font-medium">Lodha Group (Macrotech Developers Ltd.), Godrej Properties Limited, Rustomjee (Keystone Realtors Ltd.), DLF Limited, and Puranik Builders Limited</strong>.
+            </p>
+            <p>
+              Credence First Realtors is not the principal developer, builder, or owner of any of the referenced residential projects. All intellectual property, trademarks, project logos, architectural designs, and trade names are the exclusive property of their respective developer entities.
+            </p>
+          </div>
         </article>
+
+        <article class="reveal rounded-3xl bg-white p-8 md:p-12 border border-black/[0.05]" style="--d:80ms">
+          <h2 class="display text-2xl md:text-3xl font-medium mb-4">Project Information, Pricing &amp; Availability</h2>
+          <div class="space-y-4 text-sm md:text-[15px] leading-relaxed text-muted">
+            <p>
+              All property descriptions, visual renderings, floor plans, carpet areas, and indicative pricing displayed on this portal are sourced directly from authorized developer marketing collateral or exchange filings and are provided for guidance purposes only.
+            </p>
+            <p>
+              Starting prices (marked with an asterisk *) are base costs and exclude applicable statutory charges, including but not limited to Goods &amp; Services Tax (GST), Stamp Duty, Registration Charges, Floor-Rise Fees, and Society Formation charges. Final pricing, inventory allocation, and payment milestones are strictly defined in the developer’s formal Allotment Letter and Agreement for Sale.
+            </p>
+          </div>
+        </article>
+
+        <article class="reveal rounded-3xl bg-white p-8 md:p-12 border border-black/[0.05]" style="--d:120ms">
+          <h2 class="display text-2xl md:text-3xl font-medium mb-4">Real Estate (Regulation and Development) Act (MahaRERA)</h2>
+          <div class="space-y-4 text-sm md:text-[15px] leading-relaxed text-muted">
+            <p>
+              In strict accordance with the Real Estate (Regulation and Development) Act, 2016 and MahaRERA rules, each residential project showcased on this portal is registered with the Maharashtra Real Estate Regulatory Authority, or is undergoing the requisite statutory phase registrations.
+            </p>
+            <p>
+              Prospective purchasers are strongly encouraged to independently verify all project registration certificates, approved sanctions, layout plans, and quarterly compliance filings directly on the official portal: <a href="https://maharera.maharashtra.gov.in" target="_blank" rel="noopener" class="text-ink underline font-medium">maharera.maharashtra.gov.in</a> before committing to an allotment or financial remittance.
+            </p>
+          </div>
+        </article>
+
+        <article class="reveal rounded-3xl bg-white p-8 md:p-12 border border-black/[0.05]" style="--d:160ms">
+          <h2 class="display text-2xl md:text-3xl font-medium mb-4">Consent to Communications &amp; DND Overrides</h2>
+          <div class="space-y-4 text-sm md:text-[15px] leading-relaxed text-muted">
+            <p>
+              By voluntarily submitting your contact details (including your full name, phone number, and email address) through any inquiry form, brochure request, or WhatsApp button on this website, you explicitly grant consent to Credence First Realtors and its designated advisory personnel to contact you via voice calls, SMS, RCS, WhatsApp, and electronic mail.
+            </p>
+            <p>
+              This consent shall override any registration on the National Do Not Call (NDNC) or Telecom Commercial Communications Customer Preference Portal (TRAI DND registry). You may revoke this communication consent at any time by replying "STOP" on WhatsApp or sending an email to our compliance desk.
+            </p>
+          </div>
+        </article>
+
+        <article class="reveal rounded-3xl bg-white p-8 md:p-12 border border-black/[0.05]" style="--d:200ms">
+          <h2 class="display text-2xl md:text-3xl font-medium mb-4">Limitation of Liability &amp; Governing Law</h2>
+          <div class="space-y-4 text-sm md:text-[15px] leading-relaxed text-muted">
+            <p>
+              Under no circumstances shall Credence First Realtors, its partners, or employees be liable for any direct, indirect, incidental, or consequential loss resulting from reliance on the information contained herein, construction delays by developers, or market fluctuations.
+            </p>
+            <p>
+              These Terms &amp; Conditions are governed by and construed in accordance with the laws of India. Any disputes arising out of or related to the use of this portal shall be subject to the exclusive jurisdiction of the competent courts in Mumbai, Maharashtra. Notices may be addressed to our registered office: <strong class="text-ink font-medium">Aashiyana Art, C Wing, Block 1756/4, Amjadiya Road, Nagaon, Bhiwandi, Dist. Thane, Maharashtra</strong>.
+            </p>
+          </div>
+        </article>
+
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer__grid">
-      <div class="footer__brand">
-        <img src="assets/oppo-logo.svg" alt="OPPO Mumbai" width="160" height="28" />
-        <span class="footer__legal-name">INLEAD ELECTRONICS PRIVATE LIMITED</span>
-        <span class="footer__brand-note">OPPO MUMBAI is a brand operated by INLEAD ELECTRONICS PRIVATE LIMITED</span>
-        <p class="footer__address">2ND Floor, Unit No 201 A Wing, Everest Chambers, Marol Naka, Marol Naka Metro Station, Andheri East, Mumbai, Mumbai Suburban, Maharashtra &ndash; 400059, India.</p>
+  <!-- Footer -->
+  <footer class="border-t border-black/[0.08] mt-20">
+    <div class="max-w-[1440px] mx-auto px-5 md:px-10 py-12">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 pb-8 border-b border-black/[0.06]">
+        <div>
+          <a href="index.html" class="flex items-center gap-3 mb-2 group"><img src="assets/logos/credence-first-emblem.png" alt="Credence First Realtors" class="h-11 w-11 object-contain" /><div class="flex flex-col"><span class="text-lg font-semibold tracking-[-0.03em] leading-tight text-ink">Credence First Realtors</span><span class="text-[11px] text-muted tracking-wider uppercase">People • Properties • Possibilities</span></div></a>
+          <p class="text-sm text-muted mt-1">Authorised Channel Partner for Lodha, Godrej Properties, Rustomjee, DLF, and Puraniks.</p>
+        </div>
+        <div class="flex flex-wrap gap-6 text-sm font-medium">
+          <a href="index.html#residences" class="nav-link">Residences</a>
+          <a href="index.html#developers" class="nav-link">Developers</a>
+          <a href="contact.html" class="nav-link">Contact Us</a>
+          <a href="terms.html" class="nav-link text-ink">Terms &amp; Conditions</a>
+          <a href="privacy.html" class="nav-link">Privacy Policy</a>
+        </div>
       </div>
-      <div><h4>OPPO Mumbai</h4><a href="index.html#smartphones">Smartphones</a><a href="index.html#stores">Mumbai Stores</a><a href="index.html#board">OPPO Care</a><a href="contact.html">Contact</a></div>
-      <div><h4>Products</h4><a href="index.html#smartphones">Find X Series</a><a href="index.html#reno-spotlight">Reno Series 5G</a><a href="index.html#smartphones">F Series</a><a href="index.html#iot">Pad &amp; Audio</a></div>
-      <div><h4>Legal</h4><a href="terms.html">Terms &amp; Conditions</a><a href="privacy.html">Privacy Policy</a></div>
-    </div>
-    <div class="container footer__bottom">
-      <span>&copy; <span id="year"></span> INLEAD ELECTRONICS PRIVATE LIMITED. All rights reserved.</span>
-      <span><a href="privacy.html" class="inl">Privacy</a> &middot; <a href="terms.html" class="inl">Terms</a></span>
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4 pt-8 text-xs text-muted">
+        <p>© CREDENCE FIRST REALTORS (UDYAM-MH-33-0849010). All rights reserved.</p>
+        <p>MahaRERA numbers are project-specific and available upon request. Verify at <a href="https://maharera.maharashtra.gov.in" target="_blank" rel="noopener" class="underline">maharera.maharashtra.gov.in</a>.</p>
+      </div>
     </div>
   </footer>
-  <script src="main.js"></script>
+
+  <!-- Mobile Sticky Bottom Quick Action Bar -->
+  <nav class="md:hidden fixed bottom-3 inset-x-3 z-30 bg-[#111111]/92 backdrop-blur-xl text-white rounded-full p-1.5 flex items-center justify-between shadow-[0_12px_36px_rgba(0,0,0,0.35)] border border-white/15" aria-label="Mobile quick actions">
+    <a href="tel:+917304971642" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-medium text-white hover:bg-white/10 rounded-full transition">
+      <span class="text-sm">📞</span> <span>Call Desk</span>
+    </a>
+    <div class="w-px h-5 bg-white/20"></div>
+    <a href="https://wa.me/917304971642" target="_blank" rel="noopener" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-medium text-white hover:bg-white/10 rounded-full transition">
+      <span class="text-sm">💬</span> <span>WhatsApp</span>
+    </a>
+    <div class="w-px h-5 bg-white/20"></div>
+    <a href="contact.html" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-semibold bg-white text-[#111111] rounded-full shadow-sm hover:bg-white/90 transition">
+      <span>Enquire ↗</span>
+    </a>
+  </nav>
+
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script>
+    if (window.Lenis && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const lenis = new Lenis({ lerp: 0.08, smoothWheel: true });
+      const raf = (t) => { lenis.raf(t); requestAnimationFrame(raf); };
+      requestAnimationFrame(raf);
+    }
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((en) => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+  </script>
 </body>
 </html>
+
+
+
